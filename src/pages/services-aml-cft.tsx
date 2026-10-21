@@ -7,17 +7,13 @@ export const meta: PageMeta = {
   heading: "AML/CFT & Financial Crime Compliance",
   description:
     "AML/CFT advisory, audits, risk assessments, remediation and senior compliance support for regulated businesses.",
-  heroImage:
-    "/images/c4bb7fa24d7def8af48d.webp",
+  heroImage: "/images/c4bb7fa24d7def8af48d.webp",
 };
 
 export default function Page() {
   return (
     <>
       <main>
-        <div aria-label="Breadcrumb" className="container breadcrumb">
-          <a href="/">Home</a> &nbsp;/&nbsp; AML/CFT{" "}
-        </div>
         <section className="hero">
           <img
             alt=""

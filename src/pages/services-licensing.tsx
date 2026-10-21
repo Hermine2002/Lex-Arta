@@ -28,6 +28,10 @@ export default function Page() {
             <strong>International Licensing</strong>
             <span>Explore service →</span>
           </a>
+          <a className="lx-basic-card" href="/services/licensing/mica-casp/">
+            <strong>MiCA CASP Licensing &amp; EU Authorisation</strong>
+            <span>Explore service →</span>
+          </a>
           <a className="lx-basic-card" href="/services/licensing/international/uae/">
             <strong>UAE Virtual Asset Licensing</strong>
             <span>Explore service →</span>
