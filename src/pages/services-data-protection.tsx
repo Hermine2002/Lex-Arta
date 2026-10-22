@@ -220,13 +220,7 @@ export default function Page() {
         <section className="lx-advisory-section paper" id="advisory-scope">
           <div className="lx-advisory-shell">
             <div className="lx-advisory-head">
-              <p className="lx-advisory-kicker">
-                International privacy questions usually arise inside a real business decision:
-                launching a product, changing a data use, onboarding a vendor, expanding into a new
-                market, responding to an individual, or aligning several group entities. We identify
-                the applicable privacy regime, clarify the legal and governance issue, and translate
-                it into a practical decision and control requirement.
-              </p>
+              <p className="lx-advisory-kicker">Advisory Scope</p>
               <h2>Privacy advice for decisions that need legal and operational judgement.</h2>
               <p>
                 International privacy questions usually arise inside a real business decision:
