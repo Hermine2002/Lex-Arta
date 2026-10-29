@@ -217,6 +217,23 @@ export default function Page() {
             </div>
           </div>
         </section>
+        <section className="related-banner">
+          <div className="container">
+            <div>
+              <p className="section-kicker">Related service · EU licensing</p>
+              <h2>MiCA CASP Licensing &amp; EU Authorisation</h2>
+              <p>EU CASP authorisation, readiness assessments and regulatory application support.</p>
+            </div>
+            <a
+              className="btn btn-primary"
+              href="https://www.artlexconsult.com/services/licensing/mica-casp/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Explore MiCA CASP Licensing
+            </a>
+          </div>
+        </section>
         <section className="faq-section">
           <div className="container">
             <div className="section-head">

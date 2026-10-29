@@ -153,6 +153,15 @@ export default function Page() {
                   specialist workstreams.
                 </p>
               </article>
+              <article className="card">
+                <span className="num">05</span>
+                <h3>EU Passporting &amp; Cross-Border Notifications</h3>
+                <p>
+                  For firms holding an authorisation that permits cross-border services under the
+                  relevant EU framework: assess the available notification route and prepare or
+                  coordinate the documentation needed for agreed host markets.
+                </p>
+              </article>
             </div>
           </div>
         </section>
@@ -334,6 +343,82 @@ export default function Page() {
                   specific regulatory event.
                 </p>
               </article>
+            </div>
+          </div>
+        </section>
+        <section className="section alt" id="pricing">
+          <div className="container">
+            <div className="section-head">
+              <p className="section-kicker">Pricing &amp; engagement models</p>
+              <h2>Defined projects. Ongoing regulatory support.</h2>
+              <p className="lede">
+                Select a scoped post-authorisation project or a monthly advisory retainer with
+                agreed capacity and outputs.
+              </p>
+            </div>
+            <h3 style={{ marginTop: "20px" }}>One-off regulatory projects</h3>
+            <div className="formats-grid">
+              <article className="card">
+                <span className="num">Project 01</span>
+                <h3>Post-Authorisation Readiness Review</h3>
+                <p>Review licence conditions, regulator commitments and outstanding operational actions.</p>
+                <div className="price-label" style={{ marginTop: "12px" }}>From · per project</div>
+                <div className="price" style={{ fontSize: "1.8rem" }}>€2,500</div>
+              </article>
+              <article className="card">
+                <span className="num">Project 02</span>
+                <h3>Regulatory Obligations Register &amp; Calendar</h3>
+                <p>Map recurring obligations, filing deadlines, responsible owners and supporting evidence.</p>
+                <div className="price-label" style={{ marginTop: "12px" }}>From · per project</div>
+                <div className="price" style={{ fontSize: "1.8rem" }}>€1,950</div>
+              </article>
+              <article className="card">
+                <span className="num">Project 03</span>
+                <h3>Material Change &amp; Notification Support</h3>
+                <p>Assess proposed changes and prepare or coordinate applicable regulatory notification materials.</p>
+                <div className="price-label" style={{ marginTop: "12px" }}>From · per project</div>
+                <div className="price" style={{ fontSize: "1.8rem" }}>€2,500</div>
+              </article>
+              <article className="card">
+                <span className="num">Project 04</span>
+                <h3>EU Passporting &amp; Cross-Border Notifications</h3>
+                <p>Assess eligibility and prepare or coordinate a defined passporting notification process for agreed markets.</p>
+                <div className="price-label" style={{ marginTop: "12px" }}>From · per project</div>
+                <div className="price" style={{ fontSize: "1.8rem" }}>€3,500</div>
+              </article>
+            </div>
+            <h3 style={{ marginTop: "40px" }}>Monthly compliance retainers</h3>
+            <div className="formats-grid three">
+              <article className="card">
+                <span className="num">Retainer 01</span>
+                <h3>Regulatory Monitoring</h3>
+                <p>Regulatory updates, obligations calendar maintenance, limited advisory and monthly action tracking.</p>
+                <div className="price-label" style={{ marginTop: "12px" }}>Per month · up to 8 hours</div>
+                <div className="price" style={{ fontSize: "1.8rem" }}>€1,950</div>
+              </article>
+              <article className="card">
+                <span className="num">Retainer 02</span>
+                <h3>Regulatory Operations Support</h3>
+                <p>Ongoing obligations tracking, routine notification preparation, regulatory correspondence and action management.</p>
+                <div className="price-label" style={{ marginTop: "12px" }}>Per month · up to 15 hours</div>
+                <div className="price" style={{ fontSize: "1.8rem" }}>€3,250</div>
+              </article>
+              <article className="card">
+                <span className="num">Retainer 03</span>
+                <h3>Extended Regulatory Support</h3>
+                <p>Broader regulatory coordination, supervisory-request support, changes to the operating model and management reporting.</p>
+                <div className="price-label" style={{ marginTop: "12px" }}>Per month · up to 25 hours</div>
+                <div className="price" style={{ fontSize: "1.8rem" }}>€4,950</div>
+              </article>
+            </div>
+            <div className="callout">
+              <strong>Fee &amp; scope boundaries.</strong> Project fees are starting prices; the
+              final fee depends on licence type, jurisdiction, number of entities, host markets,
+              regulatory complexity and documentation requirements. Monthly packages are
+              capacity-limited and do not include unlimited filings or guaranteed response times.
+              Specialist AML/CFT, DORA, privacy, statutory reporting sign-off, regulated
+              representation and separate licensing applications are not included unless expressly
+              scoped. Additional work is quoted separately.
             </div>
           </div>
         </section>

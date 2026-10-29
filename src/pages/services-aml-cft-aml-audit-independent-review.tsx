@@ -135,6 +135,50 @@ export default function Page() {
             </div>
           </div>
         </section>
+        <section className="section alt" id="assurance-types">
+          <div className="container">
+            <div className="section-head">
+              <p className="section-kicker">Types of AML/CFT assurance</p>
+              <h2>Understanding different forms of AML/CFT review.</h2>
+              <p className="lede">
+                The appropriate approach depends on the regulatory framework, the purpose of the
+                assessment and the required level of independence.
+              </p>
+            </div>
+            <div className="formats-grid three">
+              <article className="card">
+                <span className="num">01</span>
+                <h3>Internal AML Audit</h3>
+                <p>
+                  An assessment conducted within an organisation&apos;s internal audit or assurance
+                  framework, subject to appropriate organisational independence.
+                </p>
+              </article>
+              <article className="card">
+                <span className="num">02</span>
+                <h3>External AML Review</h3>
+                <p>
+                  An assessment performed by an external specialist against agreed regulatory
+                  requirements. External status alone does not establish independence.
+                </p>
+              </article>
+              <article className="card">
+                <span className="num">03</span>
+                <h3>Independent AML/CFT Testing</h3>
+                <p>
+                  Objective testing by a suitably competent reviewer who meets the applicable
+                  independence requirements, whether internal or external.
+                </p>
+              </article>
+            </div>
+            <div className="callout">
+              <strong>Independence matters.</strong> Before accepting an independent review, LEX
+              ARTA assesses potential conflicts arising from previous involvement in AML framework
+              development, operational support or remediation. Applicable requirements depend on
+              the jurisdiction and regulatory regime.
+            </div>
+          </div>
+        </section>
         <section className="section dark-section" id="scope">
           <div className="container">
             <div className="section-head">
@@ -277,6 +321,90 @@ export default function Page() {
                   and validated through follow-up review where required.
                 </p>
               </article>
+            </div>
+          </div>
+        </section>
+        <section className="section alt" id="pricing">
+          <div className="container">
+            <div className="section-head">
+              <p className="section-kicker">Engagement &amp; fees</p>
+              <h2>AML Audit &amp; Independent Review — Pricing</h2>
+              <p className="lede">
+                Select a targeted review, a full-programme audit or follow-up validation. Each
+                engagement is scoped in advance and priced according to the business and testing
+                required.
+              </p>
+            </div>
+            <div className="price-box">
+              <div className="price-label">Full programme</div>
+              <h3>Full AML Audit &amp; Independent Review</h3>
+              <p>
+                One audit service with three starting-price levels depending on operational and
+                regulatory complexity.
+              </p>
+              <div className="price-tiers">
+                <div className="price-tier">
+                  <h3>Standard AML Audit</h3>
+                  <p>Smaller organisations with a standard AML operating model.</p>
+                  <div className="price-label">From</div>
+                  <div className="price">€6,000</div>
+                </div>
+                <div className="price-tier">
+                  <h3>FinTech / PSP / EMI Audit</h3>
+                  <p>Operationally active financial-services and payments businesses.</p>
+                  <div className="price-label">From</div>
+                  <div className="price">€8,000</div>
+                </div>
+                <div className="price-tier">
+                  <h3>Complex CASP / Custody Audit</h3>
+                  <p>Custody, significant transaction volumes or complex monitoring arrangements.</p>
+                  <div className="price-label">From</div>
+                  <div className="price">€12,500</div>
+                </div>
+              </div>
+              <p style={{ marginBottom: 0 }}>
+                Typical scope: governance, risk assessment, CDD/EDD, screening, monitoring,
+                policies and procedures, control testing, risk-rated findings and a written action
+                plan, as agreed.
+              </p>
+            </div>
+            <div className="comparison-grid" style={{ marginTop: "18px" }}>
+              <article className="comparison-card">
+                <span className="label">Targeted review</span>
+                <h3>Targeted AML Review</h3>
+                <p>
+                  One defined AML/CFT control area, selected evidence and sample testing, with
+                  written findings and recommendations.
+                </p>
+                <div className="price-label" style={{ marginTop: "14px" }}>
+                  From
+                </div>
+                <div className="price" style={{ fontSize: "2rem" }}>
+                  €3,500
+                </div>
+              </article>
+              <article className="comparison-card">
+                <span className="label">Follow-up</span>
+                <h3>Remediation Validation Review</h3>
+                <p>
+                  Follow-up testing of previously identified findings, corrective actions,
+                  supporting evidence and effectiveness of closure.
+                </p>
+                <div className="price-label" style={{ marginTop: "14px" }}>
+                  From
+                </div>
+                <div className="price" style={{ fontSize: "2rem" }}>
+                  €2,500
+                </div>
+              </article>
+            </div>
+            <div className="callout">
+              <strong>Scope &amp; fees.</strong> Prices are starting fees per project for a defined
+              scope agreed in advance. Final fees depend on the applicable regulatory framework,
+              number of entities, business complexity, documentation, customer and transaction
+              volumes and required testing depth. The review does not automatically constitute a
+              statutory financial audit, regulatory certification or other regulated assurance
+              engagement.
             </div>
           </div>
         </section>
