@@ -408,3 +408,12 @@
 .related-banner h2 { margin-bottom:8px; font-size:28px; }
 .related-banner p { color:var(--muted-foreground); margin:0; max-width:600px; }
 @media(max-width:800px) { .related-banner .container { flex-direction:column; align-items:flex-start; } }
+.credentials-section { background:var(--ink-surface); color:var(--primary-foreground); padding:96px 0; }
+.credentials-layout { display:flex; flex-wrap:wrap; gap:50px; align-items:flex-start; }
+.credentials-intro { flex:0 0 320px; }
+.credentials-intro .section-kicker { color:var(--gold); }
+.credentials-intro h2 { font-size:36px; }
+.credentials-rule { display:block; width:55px; height:2px; background:var(--gold); margin-top:20px; }
+.credentials-grid { flex:1; min-width:0; --cols:2; }
+.credential-label { display:block; font-size:11px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--primary); margin-bottom:14px; }
+@media(max-width:800px) { .credentials-intro { flex-basis:100%; } }

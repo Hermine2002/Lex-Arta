@@ -22,9 +22,11 @@ export default function Page() {
                 </div>
                 <h1>Legal &amp; Compliance Advisory for Regulated and Cross-Border Businesses</h1>
                 <p className="hero-lead">
-                  LEX ARTA supports FinTech, financial-services, technology and international
-                  businesses with legal and regulatory analysis, licensing strategy, AML/CFT, data
-                  protection, governance and implementation support across multiple markets.
+                  LEX ARTA brings together FinTech lawyers, legal and regulatory advisers, and
+                  compliance specialists to support FinTech, financial services, technology and
+                  international businesses with legal and regulatory analysis, licensing
+                  strategy, AML/CFT, data protection, governance and implementation support
+                  across multiple markets.
                 </p>
                 <div aria-label="Core service areas" className="hero-points">
                   <span>Legal &amp; Regulatory</span>
@@ -156,16 +158,17 @@ export default function Page() {
               <article className="problem-card" data-no="04">
                 <h3>Licensing</h3>
                 <p>
-                  Licensing strategy, jurisdiction assessment and coordinated authorisation support
-                  across selected international markets.
+                  Regulatory licensing strategy, jurisdiction assessment and coordinated
+                  authorisation support for financial services, digital assets and international
+                  businesses.
                 </p>
                 <ul className="micro-list">
                   <li>Licensing Strategy &amp; Jurisdiction Assessment</li>
                   <li>International Licensing</li>
                   <li>Payments &amp; E-Money Licensing</li>
-                  <li>UAE · Switzerland · Canada</li>
-                  <li>Canada · Armenia · Mauritius</li>
-                  <li>Armenia · Mauritius · El Salvador</li>
+                  <li>Virtual Asset &amp; Crypto Licensing</li>
+                  <li>Financial Services Regulatory Readiness</li>
+                  <li>Jurisdiction-Specific Licensing Support</li>
                 </ul>
                 <a className="card-link" href="/services/licensing/">
                   Explore Licensing →
