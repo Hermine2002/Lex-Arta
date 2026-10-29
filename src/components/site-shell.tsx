@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ArrowUpRight, ChevronDown, Menu, X, Globe2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { OriginalContent } from "./site-content";
@@ -15,10 +15,31 @@ export function SiteHeader({
 }) {
   const [menu, setMenu] = useState(false);
   const [services, setServices] = useState(false);
+  const servicesNavRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     setMenu(false);
     setServices(false);
   }, [path]);
+  useEffect(() => {
+    if (!services) return;
+    function handleOutside(e: MouseEvent) {
+      if (
+        servicesNavRef.current &&
+        !servicesNavRef.current.contains(e.target as Node)
+      ) {
+        setServices(false);
+      }
+    }
+    function handleEscape(e: KeyboardEvent) {
+      if (e.key === "Escape") setServices(false);
+    }
+    document.addEventListener("mousedown", handleOutside);
+    document.addEventListener("keydown", handleEscape);
+    return () => {
+      document.removeEventListener("mousedown", handleOutside);
+      document.removeEventListener("keydown", handleEscape);
+    };
+  }, [services]);
   return (
     <header className="site-header">
       <a href="/" className="brand" aria-label="LEX ARTA home">
@@ -41,11 +62,7 @@ export function SiteHeader({
         <a href="/" className={path === "/" ? "active" : ""}>
           Home
         </a>
-        <div
-          className="services-nav"
-          onMouseEnter={() => setServices(true)}
-          onMouseLeave={() => setServices(false)}
-        >
+        <div className="services-nav" ref={servicesNavRef}>
           <div className="services-nav-label">
             <a href="/services/" className={path.startsWith("/services") ? "active" : ""}>
               Services
@@ -55,7 +72,7 @@ export function SiteHeader({
               size="icon"
               aria-label="Show services"
               aria-expanded={services}
-              onClick={() => setServices(!services)}
+              onClick={() => setServices((s) => !s)}
             >
               <ChevronDown size={12} />
             </Button>

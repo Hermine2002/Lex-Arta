@@ -10,7 +10,7 @@ export const groups: NavGroup[] = [
     href: "/services/legal-regulatory/",
     links: [
       {
-        label: "International Legal & Regulatory",
+        label: "International Legal & FinTech Advisory",
         href: "/services/legal-regulatory/international-legal-regulatory/",
       },
       {
@@ -116,16 +116,12 @@ export const groups: NavGroup[] = [
         href: "/services/licensing/licensing-strategy-jurisdiction-assessment/",
       },
       {
-        label: "International Licensing",
+        label: "International Licensing & Market Entry",
         href: "/services/licensing/international/",
       },
       {
         label: "Payments & E-Money Licensing",
         href: "/services/licensing/payments-e-money/",
-      },
-      {
-        label: "EU MiCA / CASP Licensing",
-        href: "/services/licensing/mica-casp/",
       },
     ],
   },
