@@ -2,581 +2,343 @@ import type { PageMeta } from "./types";
 
 export const meta: PageMeta = {
   path: "/services/legal-regulatory/ai-governance/",
-  title: "AI Governance & AI Regulatory Compliance | International | LEX ARTA",
+  title: "AI Governance | Legal Risk & Compliance Advisory | LEX ARTA",
   heading: "AI Governance",
   description:
-    "AI governance advisory on accountability, risk controls, documentation and applicable regulatory expectations.",
-  heroImage: "/images/7d2757b7171a23ab52b3.webp",
+    "Practical AI governance, legal risk, privacy, vendor contracts and financial-crime compliance advisory for businesses across industries. Explore defined-scope services and fees.",
+  heroImage: "/images/ai-governance-hero.webp",
 };
 
 export default function Page() {
   return (
     <>
       <main>
-        <section className="hero">
-          <div className="container">
-            <div className="hero-grid">
-              <div className="hero-copy">
-                <div className="eyebrow">LEX ARTA · AI Governance · Regulatory Compliance</div>
-                <h1>AI Governance</h1>
-                <p className="hero-lead">
-                  International AI governance and regulatory advisory for organisations developing,
-                  procuring or deploying AI — covering applicability, role and risk classification,
-                  governance, transparency, documentation, vendor controls and implementation,
-                  including EU AI Act requirements where applicable.
-                </p>
-                <div aria-label="AI Act capabilities" className="hero-points">
-                  <span>AI regulatory applicability</span>
-                  <span>Role &amp; risk classification</span>
-                  <span>Governance &amp; accountability</span>
-                  <span>Transparency &amp; documentation</span>
-                  <span>Vendor &amp; procurement controls</span>
-                  <span>Cross-border AI compliance</span>
-                </div>
-                <div className="hero-actions">
-                  <a className="btn btn-primary" href="/contact/">
-                    Discuss Your AI Use Case
-                  </a>
-                  <a
-                    className="btn btn-secondary"
-                    href="/services/legal-regulatory/ai-governance/#problems"
-                  >
-                    Where to Start
-                  </a>
-                </div>
+        <section className="hero hero-full">
+          <img
+            alt="AI governance and oversight represented through a transparent compliance workflow interface"
+            className="hero-bg"
+            loading="lazy"
+            src="/images/ai-governance-hero.webp"
+          />
+          <div className="container hero-grid">
+            <div className="hero-copy">
+              <div className="eyebrow">
+                Legal &amp; Regulatory / AI Governance
               </div>
-              <div className="hero-visual">
-                <img
-                  alt="AI governance and regulatory compliance advisory with a cross-border business perspective"
-                  loading="lazy"
-                  src="/images/7d2757b7171a23ab52b3.webp"
-                />
+              <h1>AI Governance</h1>
+              <p className="hero-lead">
+                <strong>
+                  Legal, regulatory and organisational advisory for businesses
+                  using artificial intelligence.
+                </strong>
+              </p>
+              <p className="hero-note">
+                LEX ARTA helps organisations manage legal, contractual, privacy
+                and financial-crime risks arising from AI use. We develop
+                practical policies, establish accountability and human
+                oversight, assess AI vendor arrangements and support responsible
+                AI-assisted decision-making.
+              </p>
+              <div
+                aria-label="AI governance focus areas"
+                className="hero-points"
+              >
+                <span>Legal risk</span>
+                <span>Corporate policies</span>
+                <span>Privacy</span>
+                <span>Vendor contracts</span>
+                <span>Financial crime</span>
+              </div>
+              <div className="hero-actions">
+                <a className="btn btn-primary" href="/contact/">
+                  Discuss AI Governance
+                </a>
               </div>
             </div>
           </div>
         </section>
-        <section className="problem-section" id="problems">
+        <section className="section">
           <div className="container">
             <div className="section-head">
-              <div className="section-kicker">Start with the real AI use case</div>
-              <h2>What AI compliance question does your business need to solve?</h2>
-              <p>
-                {" "}
-                The first question is not simply whether the organisation uses AI. The relevant
-                obligations depend on the system, intended purpose, role, deployment context and the
-                business process in which the AI is used.{" "}
+              <p className="section-kicker">What we advise on</p>
+              <h2>AI governance that works in practice.</h2>
+              <p className="lede">
+                Organisations across industries need clear rules for the AI
+                tools they procure, deploy and use. Our advice focuses on
+                decisions, contractual protections and organisational controls —
+                not software development or model testing.
               </p>
             </div>
             <div className="problem-grid">
               <article className="problem-card" data-no="01">
-                <h3>Do we fall within the EU AI Act?</h3>
+                <h3>AI Governance &amp; Corporate Policies</h3>
                 <p>
-                  {" "}
-                  Determine whether the organisation, system or use case is within scope, including
-                  where the business is established outside the EU.{" "}
+                  Design internal AI governance policies, generative-AI
+                  acceptable-use rules, approval workflows, responsibilities,
+                  human review and escalation procedures.
                 </p>
-                <ul className="micro-list">
-                  <li>Territorial scope</li>
-                  <li>AI system inventory</li>
-                  <li>EU connection</li>
-                  <li>Applicable exclusions</li>
-                </ul>
               </article>
               <article className="problem-card" data-no="02">
-                <h3>Are we a provider, deployer or another operator?</h3>
+                <h3>AI Legal &amp; Regulatory Risk</h3>
                 <p>
-                  {" "}
-                  Map the organisation's role against the actual development, branding,
-                  modification, procurement and use of the AI system.{" "}
+                  Assess the legal and organisational implications of defined AI
+                  use cases, including automated decisions, customer impacts,
+                  contractual duties and sector-specific restrictions.
                 </p>
-                <ul className="micro-list">
-                  <li>Provider</li>
-                  <li>Deployer</li>
-                  <li>Importer / distributor</li>
-                  <li>Downstream responsibilities</li>
-                </ul>
               </article>
               <article className="problem-card" data-no="03">
-                <h3>Is the AI use prohibited, high-risk or subject to transparency rules?</h3>
+                <h3>AI Vendor Contracts &amp; Risk</h3>
                 <p>
-                  {" "}
-                  Classify the actual use case rather than applying a generic label to the
-                  underlying technology.{" "}
+                  Review AI and SaaS terms, confidentiality, data use,
+                  intellectual property, liability, subcontracting, information
+                  rights and termination provisions.
                 </p>
-                <ul className="micro-list">
-                  <li>Prohibited practices</li>
-                  <li>High-risk AI</li>
-                  <li>Transparency risk</li>
-                  <li>Minimal / other AI</li>
-                </ul>
               </article>
               <article className="problem-card" data-no="04">
-                <h3>Do our AI-facing disclosures and transparency controls work?</h3>
+                <h3>AI &amp; Data Protection Governance</h3>
                 <p>
-                  {" "}
-                  Assess whether the system triggers Article 50 transparency requirements and
-                  whether the relevant disclosure, labelling or machine-readable marking obligations
-                  are implemented.{" "}
+                  Review personal-data use, disclosure, retention, automated
+                  decision-making, vendor data flows and privacy assessment
+                  needs under applicable law.
                 </p>
-                <ul className="micro-list">
-                  <li>AI interaction disclosure</li>
-                  <li>Deepfakes</li>
-                  <li>Synthetic content</li>
-                  <li>Transparency notices</li>
-                </ul>
               </article>
               <article className="problem-card" data-no="05">
-                <h3>Do we need an AI governance framework?</h3>
+                <h3>AI in AML/CFT &amp; Financial Crime</h3>
                 <p>
-                  {" "}
-                  Build ownership, approval, escalation, human oversight, documentation and
-                  monitoring around the real AI use cases rather than creating a generic AI
-                  policy.{" "}
+                  Design governance for AI-assisted KYC, transaction monitoring,
+                  sanctions screening and fraud processes, including documented
+                  human oversight and escalation.
                 </p>
-                <ul className="micro-list">
-                  <li>Roles &amp; ownership</li>
-                  <li>Use-case approval</li>
-                  <li>Human oversight</li>
-                  <li>Incident &amp; change controls</li>
-                </ul>
               </article>
-              <article className="problem-card" data-no="06">
-                <h3>We use ChatGPT, Copilot or another third-party AI tool. What should we do?</h3>
+              <article className="problem-card">
+                <h3>AI-Assisted Investigations &amp; Evidence</h3>
                 <p>
-                  {" "}
-                  Inventory the use cases, data entered, vendor role, internal ownership and
-                  applicable restrictions, then align procurement and internal-use controls with
-                  privacy, security and AI governance requirements.{" "}
+                  Establish rules for AI use in internal investigations,
+                  including source verification, confidentiality, human review,
+                  records and evidence integrity.
                 </p>
-                <ul className="micro-list">
-                  <li>Third-party AI</li>
-                  <li>Vendor role</li>
-                  <li>Data handling</li>
-                  <li>Approved-use rules</li>
-                </ul>
               </article>
-              <article className="problem-card" data-no="07">
-                <h3>Do we need a DPIA, Fundamental Rights Impact Assessment, or both?</h3>
-                <p>
-                  {" "}
-                  Determine which assessment duties apply to the specific system and organisation
-                  and align overlapping assessments to avoid unnecessary duplication.{" "}
-                </p>
-                <ul className="micro-list">
-                  <li>DPIA</li>
-                  <li>FRIA</li>
-                  <li>Rights analysis</li>
-                  <li>Assessment alignment</li>
-                </ul>
-              </article>
-              <article className="problem-card" data-no="08">
-                <h3>Are we ready for the next implementation deadlines?</h3>
-                <p>
-                  {" "}
-                  Maintain a dated implementation plan based on the system category and applicable
-                  obligation rather than relying on one general AI Act deadline.{" "}
-                </p>
-                <ul className="micro-list">
-                  <li>2026 transparency</li>
-                  <li>2027 Annex III</li>
-                  <li>2028 Annex I</li>
-                  <li>Implementation roadmap</li>
-                </ul>
-              </article>
-            </div>
-            <div className="included-strip">
-              <strong>Typical AI Act work areas</strong>
-              <div className="included-items">
-                <span>AI inventory</span>
-                <span>Role mapping</span>
-                <span>Risk classification</span>
-                <span>AI Act gap assessment</span>
-                <span>Transparency</span>
-                <span>AI governance</span>
-                <span>Impact assessments</span>
-                <span>Documentation</span>
-                <span>Vendor due diligence</span>
-                <span>Contract controls</span>
-              </div>
             </div>
           </div>
         </section>
-        <section className="distinction">
-          <div className="container">
-            <div className="distinction-wrap">
-              <div>
-                <div className="section-kicker">Classification drives the compliance route</div>
-                <h2>
-                  The same technology can create very different obligations depending on how it is
-                  used.
-                </h2>
-                <p>
-                  {" "}
-                  AI Act classification should be tied to the actual intended purpose, users,
-                  deployment environment and the organisation's legal role. The compliance route
-                  then follows from that analysis.{" "}
-                </p>
-              </div>
-              <div className="journey">
-                <div className="journey-step">
-                  <b>01</b>
-                  <span>Inventory systems and use cases</span>
-                </div>
-                <div className="journey-step">
-                  <b>02</b>
-                  <span>Map provider, deployer and other roles</span>
-                </div>
-                <div className="journey-step">
-                  <b>03</b>
-                  <span>Classify risk and transparency obligations</span>
-                </div>
-                <div className="journey-step">
-                  <b>04</b>
-                  <span>Identify governance, evidence and documentation gaps</span>
-                </div>
-                <div className="journey-step">
-                  <b>05</b>
-                  <span>Implement controls and maintain the compliance record</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section>
+        <section className="section dark">
           <div className="container">
             <div className="section-head">
-              <div className="section-kicker">AI Act risk classification</div>
-              <h2>Four different compliance routes.</h2>
-              <p>
-                {" "}
-                Classification should be use-case specific and followed by a cross-regulatory check
-                where privacy, employment, consumer, cybersecurity or sector rules also apply.{" "}
+              <p className="section-kicker">Defined-scope services</p>
+              <h2>Clear services. Written outcomes.</h2>
+              <p className="lede">
+                Every engagement is tied to an agreed entity, AI use cases,
+                documents, jurisdictions and deliverables. Only the three
+                defined packages below have published fees. Specialist
+                engagements are quoted case by case after a scope review.
               </p>
             </div>
-            <div className="workstreams-grid">
-              <div className="workstream">
-                <div className="n">01 / PROHIBITED AI</div>
-                <h3>Is the proposed use permitted at all?</h3>
+            <div className="price-tiers">
+              <div className="price-tier">
+                <div className="price-label">01 · Entry review</div>
+                <h3>AI Governance Legal &amp; Policy Review</h3>
+                <div className="price">€1,750</div>
                 <p>
-                  {" "}
-                  Test the use case against the prohibited-practices framework and any applicable
-                  statutory exceptions before implementation.{" "}
+                  Fixed fee for one entity in one jurisdiction, up to three
+                  identified AI use cases, up to six existing governance or
+                  contractual documents and one 60-minute management interview.
+                </p>
+                <p style={{ marginBottom: 0 }}>
+                  <strong>Deliverables:</strong> written legal and governance
+                  gap assessment, risk &amp; responsibility matrix, prioritised
+                  written action plan, one clarification call after delivery.
+                  Full policy drafting and technical validation excluded.
                 </p>
               </div>
-              <div className="workstream">
-                <div className="n">02 / HIGH-RISK AI</div>
-                <h3>Does the use fall within a high-risk category?</h3>
+              <div className="price-tier">
+                <div className="price-label">02 · Core framework</div>
+                <h3>AI Governance Policies &amp; Framework</h3>
+                <div className="price">From €4,950</div>
                 <p>
-                  {" "}
-                  Assess Article 6 and the relevant annexes, including sensitive uses in employment,
-                  essential services, biometrics and other listed areas.{" "}
+                  A legal and organisational documentation project for one
+                  entity, one jurisdiction and up to three identified AI use
+                  cases. Includes a 90-minute requirements workshop and one
+                  consolidated revision round.
+                </p>
+                <p style={{ marginBottom: 0 }}>
+                  <strong>Deliverables:</strong> AI Governance Policy and
+                  Generative AI Acceptable Use Policy, AI use-case approval and
+                  responsibility matrix, human oversight and incident escalation
+                  procedure, AI-use register and legal risk assessment
+                  templates, written implementation guidance. Operational
+                  implementation, staff training and certification scoped
+                  separately.
                 </p>
               </div>
-              <div className="workstream">
-                <div className="n">03 / TRANSPARENCY RISK</div>
-                <h3>Does Article 50 apply?</h3>
+              <div className="price-tier">
+                <div className="price-label">03 · Contract review</div>
+                <h3>AI Vendor &amp; Contract Risk Review</h3>
+                <div className="price">From €1,450</div>
                 <p>
-                  {" "}
-                  Review disclosure, labelling and synthetic-content transparency requirements for
-                  the relevant provider or deployer use case.{" "}
+                  Legal review of one AI provider and one standard contractual
+                  package supplied by the client, covering the provider terms,
+                  data-processing terms and relevant published policies; one
+                  round of written follow-up questions.
+                </p>
+                <p style={{ marginBottom: 0 }}>
+                  <strong>Deliverables:</strong> vendor contractual risk
+                  memorandum, IP, privacy, liability and data-use risk matrix,
+                  recommended contractual protections. No technical vendor
+                  audit, security testing or certification.
                 </p>
               </div>
-              <div className="workstream">
-                <div className="n">04 / MINIMAL / OTHER AI</div>
-                <h3>Does the system sit outside the high-risk regime?</h3>
+            </div>
+            <p className="lede" style={{ marginTop: "20px" }}>
+              Published professional fees are in EUR for the stated scope. Any
+              additional work and third-party costs are separately agreed before
+              engagement.
+            </p>
+          </div>
+        </section>
+        <section className="section">
+          <div className="container">
+            <div className="section-head">
+              <p className="section-kicker">Specialist advisory</p>
+              <h2>Focused reviews for complex AI use cases.</h2>
+              <p className="lede">
+                These specialist assignments are priced case by case, because
+                the legal frameworks, documents and business processes vary.
+                Each proposal specifies the relevant entity, jurisdiction, use
+                case, source materials and written deliverables.
+              </p>
+            </div>
+            <div className="deliverables-grid">
+              <article className="deliverable">
+                <h3>AI &amp; Data Protection Risk Review</h3>
                 <p>
-                  {" "}
-                  Even where the AI Act imposes limited direct obligations, privacy, consumer,
-                  employment, cybersecurity and sector-specific requirements may still matter.{" "}
+                  Legal review of one defined AI-driven processing activity:
+                  roles, lawful basis, transparency, retention, automated
+                  decision-making and whether a privacy impact assessment is
+                  required. Deliverable: written privacy risk memorandum and
+                  action list.
                 </p>
+              </article>
+              <article className="deliverable">
+                <h3>AI in AML/CFT &amp; Financial Crime Governance</h3>
+                <p>
+                  Governance review of a defined AI-assisted KYC, monitoring,
+                  sanctions or fraud process: decision ownership, human review,
+                  alert escalation and evidential records. Deliverable:
+                  governance gap report and control recommendations; no
+                  model-performance validation.
+                </p>
+              </article>
+              <article className="deliverable">
+                <h3>AI-Assisted Investigations &amp; Evidence Governance</h3>
+                <p>
+                  Review of a defined internal-investigation workflow using AI:
+                  confidentiality, source verification, human verification,
+                  records, chain of custody and use restrictions. Deliverable:
+                  written protocol and risk memorandum; no forensic examination.
+                </p>
+              </article>
+              <article className="deliverable">
+                <h3>Ongoing AI Legal &amp; Governance Advisory</h3>
+                <p>
+                  Monthly advisory on agreed policies, contracts, new AI use
+                  cases and governance decisions. Hours, response arrangements,
+                  recurring outputs and monthly fee are specified individually
+                  in the engagement letter.
+                </p>
+              </article>
+            </div>
+            <p className="lede" style={{ marginTop: "20px" }}>
+              <strong>Fees: proposal on request.</strong> No standard fee
+              applies to these four services. Additional entities, jurisdictions
+              or technical work are outside the standard scope unless expressly
+              agreed.
+            </p>
+          </div>
+        </section>
+        <section className="section alt">
+          <div className="container">
+            <div className="section-head">
+              <p className="section-kicker">How we work</p>
+              <h2>From an actual AI use case to usable governance controls.</h2>
+              <p className="lede">
+                A legal and organisational review that management can act on.
+              </p>
+            </div>
+            <div className="journey">
+              <div className="journey-step">
+                <b>01</b>
+                <span>
+                  <strong>Define</strong> — Confirm systems, business uses,
+                  jurisdictions, stakeholders and source materials.
+                </span>
+              </div>
+              <div className="journey-step">
+                <b>02</b>
+                <span>
+                  <strong>Review</strong> — Identify legal, contractual, privacy
+                  and organisational control gaps.
+                </span>
+              </div>
+              <div className="journey-step">
+                <b>03</b>
+                <span>
+                  <strong>Document</strong> — Deliver written findings, policies
+                  or contract recommendations within the agreed scope.
+                </span>
+              </div>
+              <div className="journey-step">
+                <b>04</b>
+                <span>
+                  <strong>Support</strong> — Agree implementation priorities and
+                  separately scoped follow-on advisory where needed.
+                </span>
               </div>
             </div>
           </div>
         </section>
-        <section>
-          <div className="container">
-            <div className="section-head">
-              <div className="section-kicker">Current implementation timeline</div>
-              <h2>AI Act obligations apply in stages.</h2>
+        <section className="section">
+          <div className="container intro-grid">
+            <div>
+              <p className="section-kicker">Clear scope boundaries</p>
+              <h2>Legal and governance advice — not a technical AI audit.</h2>
               <p>
-                {" "}
-                The implementation plan should be tied to the actual system category and
-                obligation.{" "}
+                LEX ARTA provides legal, contractual, privacy, financial-crime
+                and organisational advisory. Our standard AI Governance
+                engagement does not include software engineering, model
+                development, model-performance validation, algorithm testing,
+                technical cybersecurity assessments or certification.
+              </p>
+              <p>
+                Assessment of technical effectiveness, model accuracy or
+                discrimination metrics requires appropriate technical
+                specialists. Reserved local-law work is separately scoped
+                through qualified professionals where necessary.
               </p>
             </div>
-            <div className="problem-grid">
-              <article className="problem-card" data-no="2025">
-                <h3>AI literacy and selected prohibitions</h3>
-                <p>
-                  {" "}
-                  Certain early AI Act provisions, including AI literacy and core
-                  prohibited-practice rules, have applied since 2025.{" "}
-                </p>
-              </article>
-              <article className="problem-card" data-no="2026">
-                <h3>Transparency &amp; enforcement</h3>
-                <p>
-                  {" "}
-                  Article 50 transparency obligations apply from 2 August 2026, subject to the
-                  limited transitional rule for certain systems placed on the market before that
-                  date.{" "}
-                </p>
-              </article>
-              <article className="problem-card" data-no="2027">
-                <h3>Annex III high-risk systems</h3>
-                <p>
-                  {" "}
-                  The core high-risk requirements for systems classified under Article 6(2) and
-                  Annex III apply from 2 December 2027.{" "}
-                </p>
-              </article>
-              <article className="problem-card" data-no="2028">
-                <h3>Product-embedded high-risk systems</h3>
-                <p>
-                  {" "}
-                  The corresponding high-risk requirements for systems classified under Article 6(1)
-                  and Annex I apply from 2 August 2028.{" "}
-                </p>
-              </article>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div className="container">
-            <div className="section-head">
-              <div className="section-kicker">AI governance &amp; implementation</div>
-              <h2>Turn legal requirements into ownership, controls and evidence.</h2>
+            <div className="price-box">
+              <div className="price-label">Separate EU specialist service</div>
+              <h3>EU AI Act Compliance</h3>
               <p>
-                {" "}
-                The objective is not another standalone AI policy. It is a governance model that
-                fits the organisation's existing risk, privacy, procurement and compliance
-                architecture.{" "}
+                Where a business needs a dedicated EU AI Act analysis —
+                including statutory role classification, high-risk obligations,
+                Article 50 transparency requirements or AI Act implementation —
+                this is available as a separate EU specialist regulatory service
+                under the LEX ARTA brand.
               </p>
-            </div>
-            <div className="workstreams-grid">
-              <div className="workstream">
-                <div className="n">01 / GOVERNANCE</div>
-                <h3>Ownership &amp; approval</h3>
-                <p>
-                  {" "}
-                  Define who approves AI use cases, who owns compliance, when escalation is required
-                  and how material changes are controlled.{" "}
-                </p>
-              </div>
-              <div className="workstream">
-                <div className="n">02 / DOCUMENTATION</div>
-                <h3>Evidence &amp; record keeping</h3>
-                <p>
-                  {" "}
-                  Establish the records, policies, classifications, assessments and implementation
-                  evidence required for the applicable role and risk class.{" "}
-                </p>
-              </div>
-              <div className="workstream">
-                <div className="n">03 / HUMAN OVERSIGHT</div>
-                <h3>Decision controls</h3>
-                <p>
-                  {" "}
-                  Translate human-oversight requirements into real responsibilities, intervention
-                  rights, escalation and monitoring processes.{" "}
-                </p>
-              </div>
-              <div className="workstream">
-                <div className="n">04 / CHANGE &amp; INCIDENTS</div>
-                <h3>Ongoing lifecycle controls</h3>
-                <p>
-                  {" "}
-                  Address new use cases, material changes, vendor updates, incidents and continuing
-                  monitoring rather than treating compliance as a one-off exercise.{" "}
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div className="container">
-            <div className="section-head">
-              <div className="section-kicker">Third-party AI &amp; vendor controls</div>
-              <h2>Using vendor AI does not remove governance responsibility.</h2>
-              <p>
-                {" "}
-                Businesses procuring or deploying AI should understand the vendor's role,
-                documentation, intended purpose, monitoring arrangements and the contractual
-                allocation of responsibility.{" "}
+              <a
+                className="btn btn-secondary"
+                href="https://www.artlexconsult.com/services/legal-regulatory/ai-act/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Explore EU AI Act Compliance
+              </a>
+              <p
+                style={{ marginTop: "14px", marginBottom: 0, fontSize: "13px" }}
+              >
+                The contracting entity and applicable scope are confirmed before
+                engagement.
               </p>
-            </div>
-            <div className="problem-grid">
-              <article className="problem-card" data-no="A">
-                <h3>Vendor &amp; role due diligence</h3>
-                <p>
-                  Confirm the vendor role, intended purpose, system classification and available
-                  compliance documentation.
-                </p>
-              </article>
-              <article className="problem-card" data-no="B">
-                <h3>Information &amp; audit rights</h3>
-                <p>
-                  Ensure the organisation receives the information needed to operate, monitor and
-                  evidence its own compliance responsibilities.
-                </p>
-              </article>
-              <article className="problem-card" data-no="C">
-                <h3>Incident, change &amp; monitoring clauses</h3>
-                <p>
-                  Allocate responsibilities for material changes, incidents, monitoring, regulatory
-                  cooperation and ongoing information.
-                </p>
-              </article>
-              <article className="problem-card" data-no="D">
-                <h3>Exit &amp; dependency controls</h3>
-                <p>
-                  Identify material vendor dependency and define termination, transition,
-                  data-access and continuity arrangements where appropriate.
-                </p>
-              </article>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div className="container">
-            <div className="section-head">
-              <div className="section-kicker">Cross-regulatory interfaces</div>
-              <h2>AI compliance does not sit in isolation.</h2>
-              <p>
-                {" "}
-                The same AI use case may trigger requirements under several legal and regulatory
-                frameworks.{" "}
-              </p>
-            </div>
-            <div className="workstreams-grid">
-              <div className="workstream">
-                <div className="n">GDPR</div>
-                <h3>Data protection</h3>
-                <p>
-                  {" "}
-                  Training and inference data, profiling, automated decisions, transparency, DPIAs
-                  and privacy-by-design may need to be aligned with the AI governance model.{" "}
-                </p>
-              </div>
-              <div className="workstream">
-                <div className="n">EMPLOYMENT</div>
-                <h3>HR &amp; workforce use</h3>
-                <p>
-                  {" "}
-                  Recruitment, worker management, evaluation and monitoring can create high-risk,
-                  privacy and fundamental-rights issues.{" "}
-                </p>
-              </div>
-              <div className="workstream">
-                <div className="n">CYBER / RESILIENCE</div>
-                <h3>Security &amp; operational resilience</h3>
-                <p>
-                  {" "}
-                  AI dependencies may need to be integrated into cybersecurity, supplier risk, ICT
-                  governance and operational-resilience controls.{" "}
-                </p>
-              </div>
-              <div className="workstream">
-                <div className="n">SECTOR RULES</div>
-                <h3>Consumer &amp; regulated industries</h3>
-                <p>
-                  {" "}
-                  Financial services, consumer protection and other sector-specific rules can affect
-                  AI disclosures, decision-making and control requirements.{" "}
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div className="container">
-            <div className="section-head">
-              <div className="section-kicker">International AI governance</div>
-              <h2>
-                AI compliance should follow the markets in which the system is developed, offered
-                and used.
-              </h2>
-              <p>
-                {" "}
-                Outside the EU, AI regulation and supervisory expectations differ significantly by
-                jurisdiction. We assess the relevant local framework against the actual AI use case
-                and coordinate jurisdiction-specific legal input where required.{" "}
-              </p>
-            </div>
-            <div className="problem-grid">
-              <article className="problem-card" data-no="INT1">
-                <h3>Cross-border AI regulatory mapping</h3>
-                <p>
-                  {" "}
-                  Identify which AI, data, consumer, employment, financial-services or
-                  sector-specific rules may apply when a system is developed in one jurisdiction and
-                  deployed in another.{" "}
-                </p>
-                <ul className="micro-list">
-                  <li>Territorial scope</li>
-                  <li>Local AI rules</li>
-                  <li>Sector requirements</li>
-                  <li>Cross-border dependencies</li>
-                </ul>
-              </article>
-              <article className="problem-card" data-no="INT2">
-                <h3>Internal AI governance</h3>
-                <p>
-                  {" "}
-                  Build a governance model that can operate across jurisdictions while keeping local
-                  regulatory requirements, approval processes and accountability clearly
-                  separated.{" "}
-                </p>
-                <ul className="micro-list">
-                  <li>AI policies</li>
-                  <li>Approval framework</li>
-                  <li>Ownership &amp; escalation</li>
-                  <li>Monitoring</li>
-                </ul>
-              </article>
-              <article className="problem-card" data-no="INT3">
-                <h3>Third-party and vendor AI</h3>
-                <p>
-                  {" "}
-                  Assess vendor role, documentation, data use, responsibility allocation, audit
-                  rights, incident processes and contractual dependencies across markets.{" "}
-                </p>
-                <ul className="micro-list">
-                  <li>Vendor due diligence</li>
-                  <li>Information rights</li>
-                  <li>Data use</li>
-                  <li>Exit controls</li>
-                </ul>
-              </article>
-              <article className="problem-card" data-no="INT4">
-                <h3>Automated decisions &amp; customer impact</h3>
-                <p>
-                  {" "}
-                  Review how AI-supported decisions interact with privacy, consumer protection,
-                  employment, financial-services and other jurisdiction-specific rights and
-                  restrictions.{" "}
-                </p>
-                <ul className="micro-list">
-                  <li>Automated decisions</li>
-                  <li>Transparency</li>
-                  <li>Human review</li>
-                  <li>Customer rights</li>
-                </ul>
-              </article>
-            </div>
-            <div className="included-strip">
-              <strong>International scope may include</strong>
-              <div className="included-items">
-                <span>Jurisdiction mapping</span>
-                <span>AI governance</span>
-                <span>Internal AI policies</span>
-                <span>Vendor controls</span>
-                <span>Automated decisions</span>
-                <span>Transparency</span>
-                <span>Data protection</span>
-                <span>Sector rules</span>
-                <span>Local counsel coordination</span>
-              </div>
             </div>
           </div>
         </section>
@@ -584,72 +346,72 @@ export default function Page() {
           <div className="container">
             <div className="section-head">
               <div className="section-kicker">Common Questions</div>
-              <h2>AI Governance &amp; Regulatory Compliance — FAQ</h2>
+              <h2>AI Governance — FAQ</h2>
             </div>
             <div className="faq-grid">
               <div className="faq-item">
                 <h3>
-                  We use ChatGPT, Copilot or other third-party AI internally. Where should we start?
+                  Do we need an AI policy if staff use ChatGPT or Copilot?
                 </h3>
                 <p>
-                  {" "}
-                  Start with an inventory of tools, use cases, data entered, ownership and vendor
-                  roles. Then define the organisation's role, applicable risk and transparency
-                  rules, internal-use restrictions and vendor controls.{" "}
+                  Often it is a sensible governance measure. The appropriate
+                  rules depend on what staff enter into the tools, the nature of
+                  decisions supported, existing contractual duties and the
+                  organisation&apos;s risk profile. We can review your use cases
+                  and draft proportionate acceptable-use controls.
                 </p>
               </div>
               <div className="faq-item">
-                <h3>How do we know whether we are a provider or deployer?</h3>
+                <h3>
+                  Can you review an AI vendor without access to its model or
+                  source code?
+                </h3>
                 <p>
-                  {" "}
-                  It depends on the actual use of the system. Using third-party AI as intended may
-                  indicate a deployer role, while material changes to the system, intended purpose
-                  or branding can affect role allocation.{" "}
+                  Yes. Contractual and organisational due diligence can assess
+                  vendor disclosures, terms, data-use provisions, rights,
+                  responsibilities and missing evidence. It does not certify the
+                  technical quality or security of the model.
                 </p>
               </div>
               <div className="faq-item">
-                <h3>When can an AI system be high-risk?</h3>
+                <h3>Do you advise non-financial businesses?</h3>
                 <p>
-                  {" "}
-                  High-risk status depends on the Article 6 criteria and relevant annexes, applied
-                  to the actual intended purpose and use case.{" "}
+                  Yes. The core governance, contractual and privacy services are
+                  available across industries. AML/CFT and financial-crime
+                  governance are additional specialist capabilities where
+                  relevant.
                 </p>
               </div>
               <div className="faq-item">
-                <h3>Do we need a DPIA, a Fundamental Rights Impact Assessment, or both?</h3>
+                <h3>
+                  Can you advise on AI used for AML monitoring or internal
+                  investigations?
+                </h3>
                 <p>
-                  {" "}
-                  It depends on the system, processing and role. Where both GDPR and AI Act
-                  assessment duties apply, they should be aligned so the organisation does not build
-                  two disconnected assessment processes.{" "}
+                  Yes, within a defined legal, financial-crime compliance and
+                  organisational-governance scope: responsibility for decisions,
+                  human review, evidence handling, escalation and policies.
+                  Independent performance testing of AI detection models is not
+                  included.
                 </p>
               </div>
               <div className="faq-item">
-                <h3>What should an internal AI policy cover?</h3>
+                <h3>Do you provide EU AI Act compliance assessments?</h3>
                 <p>
-                  {" "}
-                  Approved and restricted uses, ownership and escalation, generative-AI use, data
-                  handling, procurement and vendor checks, human oversight, documentation, incidents
-                  and approval of new use cases.{" "}
+                  Dedicated EU AI Act analysis is offered as a separate
+                  specialist workstream through Artlex Consult s.r.o. If a
+                  proposed AI use case triggers applicable EU obligations, those
+                  requirements must be addressed rather than excluded merely
+                  because the project is international.
                 </p>
               </div>
               <div className="faq-item">
-                <h3>Does the EU AI Act apply to businesses outside the EU?</h3>
+                <h3>Will you obtain ISO/IEC 42001 certification for us?</h3>
                 <p>
-                  {" "}
-                  Potentially. The territorial rules can capture non-EU businesses where the
-                  statutory conditions are met. The assessment should be based on the actual
-                  offering, use and EU connection.{" "}
-                </p>
-              </div>
-              <div className="faq-item">
-                <h3>Do you advise on AI governance outside the EU?</h3>
-                <p>
-                  {" "}
-                  Yes. International engagements are scoped jurisdiction by jurisdiction. We can
-                  assess the applicable local AI, data, consumer, employment or sector-specific
-                  framework and coordinate appropriately qualified local legal input where
-                  jurisdiction-specific advice or formal sign-off is required.{" "}
+                  No. We can assist with selected legal and governance
+                  documentation informed by relevant recognised frameworks, but
+                  we do not provide certification, accredited audits or a
+                  guarantee of standards compliance.
                 </p>
               </div>
             </div>
@@ -659,46 +421,48 @@ export default function Page() {
           <div className="container">
             <div className="section-head">
               <div className="section-kicker">Related services</div>
-              <h2>When the AI use case connects with another legal or compliance workstream.</h2>
+              <h2>
+                When the AI use case connects with another legal or compliance
+                workstream.
+              </h2>
             </div>
             <div className="related-grid">
               <a className="related-card" href="/services/data-protection/">
-                {" "}
-                <strong>Data Protection</strong>{" "}
+                <strong>Data Protection</strong>
                 <span>
-                  GDPR, DPIAs, automated decision-making, transparency and data-governance
-                  requirements for AI use cases.
-                </span>{" "}
+                  GDPR, DPIAs, automated decision-making, transparency and
+                  data-governance requirements for AI use cases.
+                </span>
               </a>
-              <a className="related-card" href="/services/legal-regulatory/commercial-contracts/">
-                {" "}
-                <strong>Commercial Contracts</strong>{" "}
+              <a
+                className="related-card"
+                href="/services/legal-regulatory/commercial-contracts/"
+              >
+                <strong>Commercial Contracts</strong>
                 <span>
-                  AI procurement, vendor agreements, information rights, monitoring, responsibility
-                  allocation and exit provisions.
-                </span>{" "}
+                  AI procurement, vendor agreements, information rights,
+                  monitoring, responsibility allocation and exit provisions.
+                </span>
               </a>
               <a
                 className="related-card"
                 href="/services/legal-regulatory/legal-opinions-regulatory-memoranda/"
               >
-                {" "}
-                <strong>Legal Opinions &amp; Regulatory Memoranda</strong>{" "}
+                <strong>Legal Opinions &amp; Regulatory Memoranda</strong>
                 <span>
-                  Document a defined AI Act classification, role or regulatory conclusion where a
-                  formal written position is required.
-                </span>{" "}
+                  Document a defined AI Act classification, role or regulatory
+                  conclusion where a formal written position is required.
+                </span>
               </a>
               <a
                 className="related-card"
                 href="/services/legal-regulatory/legal-regulatory-due-diligence/"
               >
-                {" "}
-                <strong>Legal &amp; Regulatory Due Diligence</strong>{" "}
+                <strong>Legal &amp; Regulatory Due Diligence</strong>
                 <span>
-                  Assess material AI, vendor, data and governance dependencies as part of a broader
-                  legal and regulatory risk review.
-                </span>{" "}
+                  Assess material AI, vendor, data and governance dependencies
+                  as part of a broader legal and regulatory risk review.
+                </span>
               </a>
             </div>
           </div>
@@ -707,7 +471,11 @@ export default function Page() {
           <div className="lx-eu-inline-shell">
             <p>
               Interested specifically in EU or Czech requirements?{" "}
-              <a href="/services/legal-regulatory/ai-governance/" rel="noopener" target="_blank">
+              <a
+                href="/services/legal-regulatory/ai-governance/"
+                rel="noopener"
+                target="_blank"
+              >
                 See the EU/CZ-focused AI Governance service →
               </a>
             </p>
@@ -718,8 +486,12 @@ export default function Page() {
             <p className="lx-legal-kicker">Legal &amp; Regulatory</p>
             <h2>Explore the legal and regulatory service block.</h2>
             <div className="lx-legal-links">
-              <a href="/services/legal-regulatory/">International Legal &amp; Regulatory</a>
-              <a href="/services/legal-regulatory/commercial-contracts/">Commercial Contracts</a>
+              <a href="/services/legal-regulatory/">
+                International Legal &amp; Regulatory
+              </a>
+              <a href="/services/legal-regulatory/commercial-contracts/">
+                Commercial Contracts
+              </a>
               <a href="/services/legal-regulatory/legal-opinions-regulatory-memoranda/">
                 Legal Opinions &amp; Regulatory Memoranda
               </a>
@@ -732,7 +504,10 @@ export default function Page() {
               <a href="/services/legal-regulatory/payments-financial-services-regulatory/">
                 Payments &amp; Financial Services Regulatory
               </a>
-              <a className="is-current" href="/services/legal-regulatory/ai-governance/">
+              <a
+                className="is-current"
+                href="/services/legal-regulatory/ai-governance/"
+              >
                 AI Governance
               </a>
             </div>
@@ -743,18 +518,21 @@ export default function Page() {
             <div className="container final-cta-inner">
               <div>
                 <div className="section-kicker">
-                  Need to turn AI Act requirements into a workable compliance plan?
+                  Discuss your AI governance needs
                 </div>
-                <h2>Start with the use case, jurisdictions, role and current governance model.</h2>
+                <h2>
+                  Make AI use accountable, documented and contractually sound.
+                </h2>
                 <p>
-                  Tell us what AI systems the business develops, procures or deploys, where they are
-                  offered or used and which processes they affect. We will define the appropriate EU
-                  AI Act and cross-border AI governance workstream.
+                  Tell us which AI systems your business uses, what decisions
+                  they support and which legal, contractual or governance
+                  questions you need to resolve. We will propose a defined
+                  advisory scope and deliverables.
                 </p>
               </div>
               <div className="final-cta-actions">
                 <a className="btn btn-primary" href="/contact/">
-                  Discuss AI Act Compliance
+                  Book an AI Governance Consultation
                 </a>
               </div>
             </div>
