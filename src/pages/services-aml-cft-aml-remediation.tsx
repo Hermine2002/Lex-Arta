@@ -4,458 +4,450 @@ import type { PageMeta } from "./types";
 // eslint-disable-next-line react-refresh/only-export-components
 export const meta: PageMeta = {
   path: "/services/aml-cft/aml-remediation/",
-  title: "AML Remediation | International AML/CFT Compliance | LEX ARTA",
+  title: "AML Remediation & Regulatory Findings Support | LEX ARTA",
   heading: "AML Remediation",
   description:
-    "AML remediation support to convert identified gaps into prioritised controls, ownership and delivery steps.",
-  heroImage: null,
+    "AML/CFT remediation support for regulatory findings, audit deficiencies, KYC backlogs and governance gaps. Risk-based action plans and implementation evidence.",
+  heroImage: "/images/aml-remediation-hero.webp",
 };
 
 export default function Page() {
   return (
     <>
       <main>
-        <section className="hero">
-          <div className="wrap hero-inner">
+        <section className="hero hero-full">
+          <img
+            alt="Advisors reviewing a signed remediation action plan"
+            className="hero-bg"
+            loading="lazy"
+            src="/images/aml-remediation-hero.webp"
+          />
+          <div className="container hero-grid">
             <div className="hero-copy">
-              <div className="eyebrow">AML/CFT · Financial Crime Compliance</div>
+              <div className="eyebrow">
+                LEX ARTA / AML/CFT &amp; Financial Crime
+              </div>
               <h1>AML Remediation</h1>
-              <p>
-                Resolve regulatory, audit and internal AML/CFT findings through a structured
-                remediation programme focused on corrective action, implementation and defensible
-                evidence.
+              <p className="hero-lead">
+                Resolve regulatory, audit and internal AML/CFT findings through
+                targeted corrective action, implementation support and
+                documented evidence.
               </p>
               <div className="hero-actions">
-                <a className="btn-primary" href="/contact/">
-                  Discuss an AML remediation matter →
+                <a className="btn btn-primary" href="/contact/">
+                  Discuss AML Remediation
                 </a>
-                <a className="btn-link" href="/services/aml-cft/aml-remediation/#services">
-                  Explore the scope
+                <a
+                  className="btn btn-secondary"
+                  href="/services/aml-cft/aml-remediation/#scope"
+                >
+                  Explore the Scope
                 </a>
-              </div>
-              <div className="hero-note">
-                <span>International scope</span>
-                <span>Risk-based approach</span>
-                <span>Evidence-focused delivery</span>
               </div>
             </div>
           </div>
         </section>
-        <section className="problem">
-          <div className="wrap">
+        <section className="section paper">
+          <div className="container">
             <div className="section-head">
-              <div>
-                <div className="eyebrow">The client problem</div>
-                <h2>When an AML finding needs more than a policy update</h2>
-              </div>
-              <p>
-                A regulatory or audit finding may point to a broader weakness in governance,
-                customer due diligence, risk methodology, monitoring, sanctions controls or
-                escalation. Remediation should therefore address the underlying control failure,
-                assign responsibility and create evidence that the corrective action has actually
-                been implemented.
+              <p className="kicker">When to engage</p>
+              <h2>Correct the control weakness, not just the document.</h2>
+              <p className="lede">
+                A finding can signal a wider issue in governance, due diligence,
+                monitoring, sanctions controls or escalation. Remediation should
+                identify the cause, assign ownership and demonstrate what
+                changed.
               </p>
             </div>
             <div className="problem-grid">
-              <div className="problem-card">
-                <strong>Regulatory findings</strong>
+              <article className="problem-card" data-no="01">
+                <h3>Regulatory findings</h3>
                 <p>
-                  Deficiencies raised by a supervisory authority or licensing body that require
-                  corrective action within a defined timeframe.
-                </p>
-              </div>
-              <div className="problem-card">
-                <strong>Audit or review findings</strong>
-                <p>
-                  Weaknesses identified through internal audit, independent AML review or compliance
-                  testing.
-                </p>
-              </div>
-              <div className="problem-card">
-                <strong>KYC and control backlogs</strong>
-                <p>
-                  Known issues in CDD, EDD, customer risk classification, periodic review or
-                  operational execution.
-                </p>
-              </div>
-              <div className="problem-card">
-                <strong>Governance and evidence gaps</strong>
-                <p>
-                  Actions may have been taken, but ownership, approval, implementation or closure
-                  evidence is incomplete.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="approach">
-          <div className="wrap">
-            <div className="section-head">
-              <div>
-                <div className="eyebrow">Our approach</div>
-                <h2>From finding to sustainable corrective action</h2>
-              </div>
-              <p>
-                We distinguish the immediate finding from its underlying cause, translate each
-                material issue into a corrective action and support implementation through to
-                documented closure.
-              </p>
-            </div>
-            <div className="process-row">
-              <div className="step">
-                <div className="step-num">01</div>
-                <h3>Understand</h3>
-                <p>
-                  Review the finding, evidence, applicable requirements and surrounding control
-                  environment.
-                </p>
-              </div>
-              <div className="step">
-                <div className="step-num">02</div>
-                <h3>Prioritise</h3>
-                <p>
-                  Assess regulatory significance, financial-crime exposure, dependencies and
-                  implementation urgency.
-                </p>
-              </div>
-              <div className="step">
-                <div className="step-num">03</div>
-                <h3>Plan</h3>
-                <p>Define actions, owners, milestones, dependencies and evidence requirements.</p>
-              </div>
-              <div className="step">
-                <div className="step-num">04</div>
-                <h3>Implement</h3>
-                <p>
-                  Support policy, process, methodology, governance and control improvements within
-                  scope.
-                </p>
-              </div>
-              <div className="step">
-                <div className="step-num">05</div>
-                <h3>Evidence</h3>
-                <p>
-                  Organise the records needed to demonstrate what changed and why the action can be
-                  closed.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="services" id="services">
-          <div className="wrap">
-            <div className="section-head">
-              <div>
-                <div className="eyebrow">AML remediation services</div>
-                <h2>Targeted support around the actual control weakness</h2>
-              </div>
-              <p>
-                The scope can cover an entire AML/CFT framework or selected workstreams only. It is
-                tailored to the relevant jurisdiction, business model, regulatory status and
-                identified findings.
-              </p>
-            </div>
-            <div className="services-grid">
-              <article className="service">
-                <div className="n">01</div>
-                <h3>Remediation Planning</h3>
-                <p>
-                  Corrective-action planning, priorities, ownership, dependencies, milestones and
-                  closure evidence.
+                  Respond to deficiencies identified by supervisors or licensing
+                  authorities within defined deadlines.
                 </p>
               </article>
-              <article className="service">
-                <div className="n">02</div>
-                <h3>Root-Cause Analysis</h3>
+              <article className="problem-card" data-no="02">
+                <h3>Audit and review findings</h3>
                 <p>
-                  Identify whether the failure relates to governance, methodology, procedures,
-                  ownership, data, training or execution.
+                  Address weaknesses identified through independent reviews,
+                  internal audits or compliance testing.
                 </p>
               </article>
-              <article className="service">
-                <div className="n">03</div>
-                <h3>Policies &amp; Procedures</h3>
+              <article className="problem-card" data-no="03">
+                <h3>KYC and control backlogs</h3>
                 <p>
-                  Revise or develop documentation where it is incomplete, outdated or disconnected
-                  from actual operations.
+                  Prioritise shortcomings in customer due diligence, risk
+                  classification and ongoing reviews.
                 </p>
               </article>
-              <article className="service">
-                <div className="n">04</div>
-                <h3>KYC, CDD &amp; EDD Remediation</h3>
+              <article className="problem-card" data-no="04">
+                <h3>Governance and evidence gaps</h3>
                 <p>
-                  Strengthen onboarding, beneficial ownership, risk classification, periodic review,
-                  EDD and related controls.
-                </p>
-              </article>
-              <article className="service">
-                <div className="n">05</div>
-                <h3>Risk Methodology</h3>
-                <p>
-                  Review customer-risk and enterprise-wide risk methodologies where weaknesses
-                  affect risk identification or residual-risk decisions.
-                </p>
-              </article>
-              <article className="service">
-                <div className="n">06</div>
-                <h3>Transaction Monitoring Governance</h3>
-                <p>
-                  Address monitoring governance, investigation, escalation, documentation and
-                  management oversight. Technical implementation is separately scoped.
-                </p>
-              </article>
-              <article className="service">
-                <div className="n">07</div>
-                <h3>Sanctions &amp; PEP Controls</h3>
-                <p>
-                  Improve screening governance, escalation, decision-making, record keeping and
-                  management oversight.
-                </p>
-              </article>
-              <article className="service">
-                <div className="n">08</div>
-                <h3>Suspicious Activity Escalation</h3>
-                <p>
-                  Clarify investigation, internal escalation, decision-making, reporting
-                  responsibilities and documentation standards.
-                </p>
-              </article>
-              <article className="service">
-                <div className="n">09</div>
-                <h3>Governance &amp; MLRO Oversight</h3>
-                <p>
-                  Strengthen accountability, reporting lines, management oversight, committee
-                  structures and board visibility.
+                  Clarify ownership, approvals and the evidence needed to
+                  demonstrate corrective action.
                 </p>
               </article>
             </div>
           </div>
         </section>
-        <section className="deliverables">
-          <div className="wrap">
-            <div className="section-head">
-              <div>
-                <div className="eyebrow">Deliverables</div>
-                <h2>Evidence that the issue was addressed</h2>
+        <section className="section">
+          <div className="container intro-grid">
+            <div>
+              <p className="kicker">Our approach</p>
+              <h2>From findings to corrective action.</h2>
+              <p className="lede">
+                We convert findings into a structured plan and support
+                implementation within an agreed mandate. Actions are tracked
+                against clear responsibilities and evidence requirements.
+              </p>
+              <div className="callout">
+                The engagement does not guarantee acceptance or closure by a
+                supervisor. Final approvals and regulatory responsibilities
+                remain with the client and its authorised role-holders.
               </div>
-              <p>
-                Remediation is not complete simply because a new document has been approved. The
-                engagement should produce a clear record of what changed, why it changed, who
-                approved it and what supports closure.
+            </div>
+            <div className="journey">
+              <div className="journey-step">
+                <b>01</b>
+                <span>
+                  <strong>Understand</strong> — Review the findings, supporting
+                  evidence and applicable regulatory requirements.
+                </span>
+              </div>
+              <div className="journey-step">
+                <b>02</b>
+                <span>
+                  <strong>Prioritise</strong> — Identify material risks,
+                  deadlines, dependencies and operational urgency.
+                </span>
+              </div>
+              <div className="journey-step">
+                <b>03</b>
+                <span>
+                  <strong>Plan</strong> — Agree actions, owners, milestones and
+                  evidence standards.
+                </span>
+              </div>
+              <div className="journey-step">
+                <b>04</b>
+                <span>
+                  <strong>Implement</strong> — Support changes to policies,
+                  processes, methodologies and governance.
+                </span>
+              </div>
+              <div className="journey-step">
+                <b>05</b>
+                <span>
+                  <strong>Document</strong> — Prepare evidence of
+                  implementation; closure remains subject to appropriate client
+                  or supervisory acceptance.
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="section paper" id="scope">
+          <div className="container">
+            <div className="section-head">
+              <p className="kicker">Scope of work</p>
+              <h2>Targeted AML remediation services.</h2>
+              <p className="lede">
+                Projects can address selected deficiencies or a broader AML/CFT
+                framework. Scope depends on the business model, jurisdiction,
+                regulatory status and findings.
               </p>
             </div>
-            <div className="deliver-grid">
-              <div className="deliver">
+            <div className="problem-grid">
+              <article className="problem-card" data-no="01">
+                <h3>Remediation planning</h3>
+                <p>
+                  Corrective actions, responsible owners, deadlines,
+                  dependencies and closure criteria.
+                </p>
+              </article>
+              <article className="problem-card" data-no="02">
+                <h3>Root-cause analysis</h3>
+                <p>
+                  Identify failures in governance, methodology, procedures,
+                  training, data or execution.
+                </p>
+              </article>
+              <article className="problem-card" data-no="03">
+                <h3>Policies and procedures</h3>
+                <p>
+                  Update AML/CFT documentation to reflect legal requirements and
+                  actual workflows.
+                </p>
+              </article>
+              <article className="problem-card" data-no="04">
+                <h3>KYC, CDD and EDD</h3>
+                <p>
+                  Improve onboarding, beneficial-ownership checks, periodic
+                  review and enhanced due diligence.
+                </p>
+              </article>
+              <article className="problem-card" data-no="05">
+                <h3>Risk methodology</h3>
+                <p>
+                  Review customer-risk and business-wide risk-assessment
+                  approaches.
+                </p>
+              </article>
+              <article className="problem-card">
+                <h3>Transaction monitoring governance</h3>
+                <p>
+                  Improve alert review, escalation, investigation records and
+                  oversight; technical configuration is separately scoped.
+                </p>
+              </article>
+              <article className="problem-card">
+                <h3>Sanctions and PEP controls</h3>
+                <p>
+                  Review screening governance, escalation procedures and
+                  decision records.
+                </p>
+              </article>
+              <article className="problem-card">
+                <h3>Suspicious activity escalation</h3>
+                <p>
+                  Clarify internal investigation, escalation and reporting
+                  responsibilities.
+                </p>
+              </article>
+              <article className="problem-card">
+                <h3>Governance and MLRO oversight</h3>
+                <p>
+                  Strengthen reporting lines, management information,
+                  accountability and control ownership.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section className="section dark">
+          <div className="container">
+            <div className="section-head">
+              <p className="kicker">Outputs</p>
+              <h2>Evidence of what has changed.</h2>
+              <p className="lede">
+                Documents are outputs, not substitutes for effective controls.
+                Deliverables are agreed according to the identified
+                deficiencies.
+              </p>
+            </div>
+            <div className="deliverables-grid">
+              <article className="deliverable">
                 <h3>Remediation Action Plan</h3>
                 <p>
-                  Structured findings, corrective actions, responsibilities, priorities,
-                  dependencies and implementation status.
+                  Findings, actions, accountable owners, priorities, milestones
+                  and status.
                 </p>
-              </div>
-              <div className="deliver">
-                <h3>Revised Compliance Framework</h3>
+              </article>
+              <article className="deliverable">
+                <h3>Revised AML/CFT documentation</h3>
                 <p>
-                  Updated policies, procedures, methodologies, governance documents and control
-                  requirements within scope.
+                  Policies, procedures, methodologies and control requirements
+                  within the agreed scope.
                 </p>
-              </div>
-              <div className="deliver">
-                <h3>Evidence &amp; Closure Pack</h3>
+              </article>
+              <article className="deliverable">
+                <h3>Evidence and closure pack</h3>
                 <p>
-                  Organised records supporting implementation and demonstrating how the identified
-                  weaknesses were addressed.
+                  Records of implementation, approval and the supporting
+                  evidence for closure.
                 </p>
-              </div>
-              <div className="deliver">
-                <h3>Root-Cause Assessment</h3>
+              </article>
+              <article className="deliverable">
+                <h3>Root-cause assessment</h3>
                 <p>
-                  Analysis of the underlying drivers of material deficiencies where root-cause work
-                  forms part of the engagement.
+                  Documented analysis of underlying deficiencies where included
+                  in the mandate.
                 </p>
-              </div>
-              <div className="deliver">
-                <h3>Management Reporting</h3>
+              </article>
+              <article className="deliverable">
+                <h3>Management reporting</h3>
                 <p>
-                  Clear reporting on material issues, progress, implementation risk and outstanding
-                  remediation actions.
+                  Concise progress updates, unresolved issues and escalation
+                  items.
                 </p>
-              </div>
-              <div className="deliver">
-                <h3>Regulatory Response Support</h3>
+              </article>
+              <article className="deliverable">
+                <h3>Regulatory response support</h3>
                 <p>
-                  Support with factual and compliance components of remediation responses, subject
-                  to jurisdiction and professional scope.
+                  Factual and compliance input to responses, subject to local
+                  professional restrictions.
                 </p>
-              </div>
+              </article>
             </div>
           </div>
         </section>
-        <section className="international" id="international">
-          <div className="wrap intl-layout">
+        <section className="section paper">
+          <div className="container intro-grid">
             <div>
-              <div className="eyebrow">Cross-border remediation</div>
-              <h2>One methodology. Jurisdiction-specific requirements.</h2>
+              <p className="kicker">Cross-border mandates</p>
+              <h2>One disciplined process. Local legal requirements.</h2>
               <p>
-                There is no universal AML remediation checklist. The correct response depends on
-                regulatory status, jurisdiction, sector, business model, customer base, products,
-                delivery channels and financial-crime risk profile.
+                For international groups, remediation can be coordinated across
+                entities while distinguishing common group standards from local
+                AML/CFT requirements and supervisory expectations.
               </p>
-              <p>
-                For cross-border businesses, LEX ARTA can coordinate remediation across entities or
-                markets while separating group standards from local legal and supervisory
-                requirements.
+              <p className="lede">
+                Local-law advice, representation and reserved professional work
+                are provided only where lawfully permitted and, where necessary,
+                through appropriately qualified local advisers under separate
+                arrangements.
               </p>
             </div>
-            <div className="intl-box">
-              <h3>Our cross-border framework considers</h3>
-              <ul>
-                <li>group-wide AML/CFT standards;</li>
-                <li>national legislation and supervisory expectations;</li>
-                <li>sector-specific regulatory requirements;</li>
-                <li>FATF-based international standards; and</li>
-                <li>entity-specific operational controls.</li>
-              </ul>
+            <div className="intro-copy">
+              <p className="kicker">Related but distinct services</p>
+              <div className="journey">
+                <div className="journey-step">
+                  <span>
+                    <strong>AML Gap Analysis</strong> — Identifies the
+                    difference between current controls and the required
+                    standard.
+                  </span>
+                </div>
+                <div className="journey-step">
+                  <span>
+                    <strong>AML Remediation</strong> — Addresses known
+                    deficiencies and supports corrective action.
+                  </span>
+                </div>
+                <div className="journey-step">
+                  <span>
+                    <strong>Independent AML Review</strong> — Provides
+                    independent assurance under a separate mandate and subject
+                    to conflict checks.
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </section>
-        <section className="compare">
-          <div className="wrap">
+        <section className="related-banner">
+          <div className="container">
+            <div>
+              <p className="section-kicker">Related EU regulatory services</p>
+              <h2>EU AML/CFT Compliance &amp; Regulatory Advisory</h2>
+              <p>
+                Specialist support for businesses operating under EU AML/CFT
+                requirements, including risk assessments, compliance frameworks,
+                regulatory reviews and remediation.
+              </p>
+            </div>
+            <a
+              className="btn btn-secondary"
+              href="https://www.artlexconsult.com/services/aml-cft/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Explore EU AML/CFT Services
+            </a>
+          </div>
+        </section>
+        <section className="section paper faq-section" id="faq">
+          <div className="container">
             <div className="section-head">
-              <div>
-                <div className="eyebrow">Clear service boundaries</div>
-                <h2>Remediation is not the same as assessment or audit</h2>
-              </div>
-              <p>
-                Separating these services helps preserve a clear client journey and, where
-                independent assurance is required, protects the necessary objectivity.
-              </p>
+              <p className="kicker">Frequently asked</p>
+              <h2>AML remediation — common questions.</h2>
             </div>
-            <div className="compare-list">
-              <div className="compare-item">
-                <h3>AML Gap Analysis</h3>
+            <div className="faq-grid">
+              <div className="faq-item">
+                <h3>Is AML remediation the same as a gap analysis?</h3>
                 <p>
-                  Identifies the difference between the current framework and the required state.
+                  No. Gap analysis identifies deficiencies. Remediation
+                  addresses identified weaknesses through corrective action and
+                  implementation support.
                 </p>
               </div>
-              <div className="compare-item">
-                <h3>AML Remediation</h3>
+              <div className="faq-item">
+                <h3>Can the engagement cover only one area?</h3>
                 <p>
-                  Addresses deficiencies that are already known and implements corrective action.
+                  Yes. The scope may focus on CDD/EDD, customer risk,
+                  transaction monitoring governance, sanctions controls,
+                  policies, EWRA or governance.
                 </p>
               </div>
-              <div className="compare-item">
-                <h3>Independent AML Review</h3>
+              <div className="faq-item">
+                <h3>Can you support a historical KYC backlog?</h3>
                 <p>
-                  Assesses the design, implementation or effectiveness of controls within an
-                  independent-assurance scope.
+                  Yes, subject to the agreed mandate. We can support risk-based
+                  prioritisation, review standards, governance and quality
+                  assurance. Large-scale file processing is scoped separately.
+                </p>
+              </div>
+              <div className="faq-item">
+                <h3>Does LEX ARTA guarantee regulatory closure?</h3>
+                <p>
+                  No. We support implementation and evidence preparation, but
+                  acceptance of remediation findings rests with the relevant
+                  authority or accountable client decision-maker.
+                </p>
+              </div>
+              <div className="faq-item">
+                <h3>Can you support different jurisdictions?</h3>
+                <p>
+                  Yes, after evaluating each relevant jurisdiction and the
+                  services legally permitted there.
                 </p>
               </div>
             </div>
           </div>
         </section>
-        <section className="why">
-          <div className="wrap">
+        <section className="section">
+          <div className="container">
             <div className="section-head">
-              <div>
-                <div className="eyebrow">Why LEX ARTA</div>
-                <h2>Legal and compliance thinking applied to implementation</h2>
-              </div>
-              <p>
-                AML remediation often sits at the intersection of regulatory requirements,
-                governance and operational execution. We address those elements together rather than
-                treating remediation as document production.
-              </p>
+              <p className="kicker">AML/CFT &amp; Financial Crime</p>
+              <h2>Explore related AML/CFT services.</h2>
             </div>
-            <div className="why-grid">
-              <div className="why-card">
-                <h3>Legal &amp; Compliance Perspective</h3>
-                <p>
-                  Regulatory requirements, governance and operational controls considered together.
-                </p>
-              </div>
-              <div className="why-card">
-                <h3>Practitioner-Led</h3>
-                <p>Work shaped by AML, MLRO, compliance, legal and financial-crime experience.</p>
-              </div>
-              <div className="why-card">
-                <h3>Evidence-Focused</h3>
-                <p>
-                  Attention to how corrective actions can be demonstrated, not only how they are
-                  described.
-                </p>
-              </div>
-              <div className="why-card">
-                <h3>International Scope</h3>
-                <p>
-                  Cross-border engagements adapted to the jurisdictions and activities relevant to
-                  the client.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="faq" id="faq">
-          <div className="wrap">
-            <div className="section-head">
-              <div>
-                <div className="eyebrow">FAQ</div>
-                <h2>AML remediation: common questions</h2>
-              </div>
-              <p>
-                Focused answers to help determine whether remediation — rather than an initial
-                assessment — is the right next step.
-              </p>
-            </div>
-            <details open>
-              <summary>What is AML remediation?</summary>
-              <p>
-                AML remediation is the process of addressing identified deficiencies in an AML/CFT
-                framework through corrective actions, governance or procedural changes,
-                implementation support and documented evidence of completion.
-              </p>
-            </details>
-            <details>
-              <summary>Is an AML gap analysis the same as remediation?</summary>
-              <p>
-                No. A gap analysis identifies deficiencies. Remediation is the work required to
-                correct deficiencies that are already known.
-              </p>
-            </details>
-            <details>
-              <summary>Can you remediate only one part of our AML framework?</summary>
-              <p>
-                Yes. The engagement can focus on a defined area such as CDD/EDD, customer risk
-                assessment, transaction monitoring governance, sanctions controls, AML policies,
-                EWRA or MLRO governance.
-              </p>
-            </details>
-            <details>
-              <summary>Can you support historical KYC remediation?</summary>
-              <p>
-                Yes, subject to scope. Support can cover methodology, risk-based prioritisation,
-                file-review standards, governance, quality control and related documentation.
-                Large-scale operational review is separately scoped.
-              </p>
-            </details>
-            <details>
-              <summary>Do you work internationally?</summary>
-              <p>
-                Yes. Cross-border remediation is scoped against the legal and regulatory benchmark
-                relevant to each jurisdiction rather than a single generic checklist.
-              </p>
-            </details>
-          </div>
-        </section>
-        <div className="lx-eu-inline">
-          <div className="lx-eu-inline-shell">
-            <p>
-              Interested specifically in EU or Czech AML/CFT requirements?{" "}
-              <a href="/services/aml-cft/aml-remediation/" rel="noopener" target="_blank">
-                See the EU/CZ Regulatory Response &amp; Compliance Remediation service →
+            <div className="related-grid">
+              <a
+                className="related-card"
+                href="/services/aml-cft/enterprise-wide-risk-assessment/"
+              >
+                <strong>Enterprise-Wide Risk Assessment</strong>
               </a>
-            </p>
+              <a
+                className="related-card"
+                href="/services/aml-cft/aml-audit-independent-review/"
+              >
+                <strong>AML Audit &amp; Independent Review</strong>
+              </a>
+              <a
+                className="related-card"
+                href="/services/aml-cft/aml-gap-analysis/"
+              >
+                <strong>AML Gap Analysis</strong>
+              </a>
+              <a
+                className="related-card"
+                href="/services/aml-cft/mlro-compliance-officer-support/"
+              >
+                <strong>MLRO &amp; Compliance Officer Support</strong>
+              </a>
+              <a
+                className="related-card"
+                href="/services/aml-cft/aml-cft-training/"
+              >
+                <strong>AML/CFT Training</strong>
+              </a>
+              <a
+                className="related-card"
+                href="/services/aml-cft/aml-policies-procedures/"
+              >
+                <strong>AML Policies &amp; Procedures</strong>
+              </a>
+              <a
+                className="related-card"
+                href="/services/aml-cft/fraud-financial-crime-risk/"
+              >
+                <strong>Fraud &amp; Financial Crime Risk</strong>
+              </a>
+            </div>
           </div>
-        </div>
+        </section>
         <section className="lx-aml-menu">
           <div className="lx-aml-menu-shell">
             <p className="lx-aml-kicker">AML/CFT &amp; Financial Crime</p>
@@ -464,19 +456,31 @@ export default function Page() {
               <a className="" href="/services/aml-cft/">
                 Compliance Overview
               </a>
-              <a className="" href="/services/aml-cft/enterprise-wide-risk-assessment/">
+              <a
+                className=""
+                href="/services/aml-cft/enterprise-wide-risk-assessment/"
+              >
                 Enterprise-Wide Risk Assessment
               </a>
-              <a className="" href="/services/aml-cft/aml-audit-independent-review/">
+              <a
+                className=""
+                href="/services/aml-cft/aml-audit-independent-review/"
+              >
                 AML Audit &amp; Independent Review
               </a>
               <a className="" href="/services/aml-cft/aml-gap-analysis/">
                 AML Gap Analysis
               </a>
-              <a className="is-current" href="/services/aml-cft/aml-remediation/">
+              <a
+                className="is-current"
+                href="/services/aml-cft/aml-remediation/"
+              >
                 AML Remediation
               </a>
-              <a className="" href="/services/aml-cft/mlro-compliance-officer-support/">
+              <a
+                className=""
+                href="/services/aml-cft/mlro-compliance-officer-support/"
+              >
                 MLRO &amp; Compliance Officer Support
               </a>
               <a className="" href="/services/aml-cft/aml-cft-training/">
@@ -485,26 +489,31 @@ export default function Page() {
               <a className="" href="/services/aml-cft/aml-policies-procedures/">
                 AML Policies &amp; Procedures
               </a>
-              <a className="" href="/services/aml-cft/fraud-financial-crime-risk/">
+              <a
+                className=""
+                href="/services/aml-cft/fraud-financial-crime-risk/"
+              >
                 Fraud &amp; Financial Crime Risk
               </a>
             </div>
           </div>
         </section>
-        <section className="cta" id="contact">
-          <div className="wrap cta-inner">
+        <section className="final-cta" id="contact">
+          <div className="container final-cta-inner">
             <div>
-              <div className="eyebrow">AML/CFT · Remediation</div>
-              <h2>Turn AML findings into a defensible remediation programme.</h2>
+              <div className="section-kicker">AML/CFT / Remediation</div>
+              <h2>Turn AML findings into a practical remediation plan.</h2>
               <p>
-                Send us the relevant findings, jurisdiction, deadline and current remediation
-                status. We can define the scope and identify the workstreams requiring immediate
-                attention.
+                Share the findings, jurisdiction, deadline and remediation
+                status. We will assess the appropriate project scope and next
+                steps.
               </p>
             </div>
-            <a className="btn-primary" href="mailto:info@lexarta.co">
-              Discuss a matter →
-            </a>
+            <div className="final-cta-actions">
+              <a className="btn btn-primary" href="/contact/">
+                Discuss an AML Remediation Matter
+              </a>
+            </div>
           </div>
         </section>
       </main>
