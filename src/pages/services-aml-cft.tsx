@@ -622,6 +622,15 @@ export default function Page() {
                 <summary>
                   Do you support AML/CFT compliance outside the EU?
                 </summary>
+                <p>
+                  {" "}
+                  Yes. AML/CFT engagements are scoped around the entity, sector
+                  and jurisdictions involved, drawing on FATF standards
+                  alongside the locally applicable legal and supervisory
+                  framework. This includes cross-border groups that need to
+                  coordinate entity-level responsibilities with group-wide
+                  AML/CFT governance outside the EU.{" "}
+                </p>
               </details>
             </div>
           </div>
