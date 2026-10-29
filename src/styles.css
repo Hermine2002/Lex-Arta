@@ -194,6 +194,7 @@
 .crypto-line p { margin:0; color:var(--muted-foreground); font-size:14px; }
 .service-card { display:flex; flex-direction:column; }
 .service-card .text-link { margin-top:auto; padding-top:14px; }
+.services-grid { --cols:2; }
 .review-grid { display:grid; grid-template-columns:repeat(3,1fr); border-top:1px solid var(--border); border-left:1px solid var(--border); }
 .review-item { min-height:165px; padding:26px 28px; border-right:1px solid var(--border); border-bottom:1px solid var(--border); }
 .review-item h3 { font-size:19px; }
