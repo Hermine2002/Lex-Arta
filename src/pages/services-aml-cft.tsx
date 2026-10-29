@@ -57,8 +57,8 @@ export default function Page() {
           </div>
         </section>
         <section className="section" id="introduction">
-          <div className="container intro-grid">
-            <div>
+          <div className="container">
+            <div className="section-head">
               <p className="section-kicker">AML/CFT Compliance</p>
               <h2>
                 From regulatory obligations to an operational control framework.
