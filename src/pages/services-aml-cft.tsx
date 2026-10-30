@@ -114,7 +114,7 @@ export default function Page() {
             </div>
           </div>
         </section>
-        <section className="section services-wrap" id="services">
+        <section className="section" id="services">
           <div className="container">
             <div className="section-head">
               <p className="section-kicker">Our AML/CFT Compliance Services</p>
