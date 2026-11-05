@@ -58,6 +58,7 @@ export default function Page() {
             </div>
             <div className="problem-grid">
               <article className="problem-card" data-no="01">
+                <p className="n">01 / Fit</p>
                 <h3>Business-specific documentation</h3>
                 <p>
                   Controls must match real services, customer journeys and
@@ -65,6 +66,7 @@ export default function Page() {
                 </p>
               </article>
               <article className="problem-card" data-no="02">
+                <p className="n">02 / Execution</p>
                 <h3>Clear procedures</h3>
                 <p>
                   Staff need defined steps, responsibilities, approvals and
@@ -72,6 +74,7 @@ export default function Page() {
                 </p>
               </article>
               <article className="problem-card" data-no="03">
+                <p className="n">03 / Jurisdiction</p>
                 <h3>Applicable requirements</h3>
                 <p>
                   Group standards and local procedures must reflect the rules
@@ -89,6 +92,7 @@ export default function Page() {
             </div>
             <div className="problem-grid">
               <article className="problem-card">
+                <p className="n">New frameworks</p>
                 <h3>Policy Development</h3>
                 <p>
                   Prepare an AML/CFT policy and procedure suite for a new or
@@ -96,6 +100,7 @@ export default function Page() {
                 </p>
               </article>
               <article className="problem-card">
+                <p className="n">Existing documentation</p>
                 <h3>Policy Review &amp; Update</h3>
                 <p>
                   Revise documentation following regulatory changes, internal
@@ -103,6 +108,7 @@ export default function Page() {
                 </p>
               </article>
               <article className="problem-card">
+                <p className="n">Cross-border groups</p>
                 <h3>Group &amp; Local Alignment</h3>
                 <p>
                   Coordinate common standards with local supplements and clear
