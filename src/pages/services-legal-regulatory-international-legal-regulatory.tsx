@@ -2,12 +2,11 @@ import type { PageMeta } from "./types";
 
 export const meta: PageMeta = {
   path: "/services/legal-regulatory/international-legal-regulatory/",
-  title: "International Legal & Regulatory Advisory | LEX ARTA",
-  heading: "International Legal & Regulatory Advisory",
+  title: "International Legal & FinTech Advisory | LEX ARTA",
+  heading: "International Legal & FinTech Advisory",
   description:
-    "Cross-border legal and regulatory advisory to assess the applicable framework, define scope and coordinate qualified local input where needed.",
-  heroImage:
-    "/images/cc5e24d699b8f200ee46.webp",
+    "International legal and FinTech advisory for cross-border businesses. Practical regulatory strategy, FinTech business models and ongoing legal and regulatory support from LEX ARTA.",
+  heroImage: "/images/cc5e24d699b8f200ee46.webp",
 };
 
 export default function Page() {
@@ -19,28 +18,26 @@ export default function Page() {
             <div className="hero-grid">
               <div className="hero-copy">
                 <div className="eyebrow">
-                  LEX ARTA · International Legal &amp; Regulatory
+                  LEX ARTA · International Legal &amp; FinTech Advisory
                 </div>
-                <h1>International Legal &amp; Regulatory Advisory</h1>
+                <h1>International Legal &amp; FinTech Advisory</h1>
                 <p className="hero-lead">
-                  Strategic legal support for businesses operating across
-                  jurisdictions, entering new markets or navigating complex
-                  regulatory environments.
+                  Practical legal and regulatory advice for international
+                  businesses, FinTech companies and teams navigating complex
+                  commercial decisions.
                 </p>
                 <p>
-                  We advise businesses on legal and regulatory questions arising
-                  from cross-border operations, new products, market expansion
-                  and evolving regulatory requirements. Our role is to help
-                  management understand the legal position, identify material
-                  risks and translate complex requirements into practical
-                  business decisions.
+                  Whether you are launching a financial product, entering
+                  another market, assessing changing rules or need ongoing
+                  external support, we help define the questions, identify risks
+                  and set out practical next steps.
                 </p>
-                <div aria-label="Key capabilities" className="hero-points">
-                  <span>Cross-border strategy</span>
-                  <span>New products &amp; business models</span>
-                  <span>External legal support</span>
-                  <span>Regulatory change</span>
-                  <span>Multi-jurisdiction matters</span>
+                <div aria-label="Key focus areas" className="hero-points">
+                  <span>International business</span>
+                  <span>FinTech &amp; payments</span>
+                  <span>Digital assets</span>
+                  <span>Regulatory strategy</span>
+                  <span>Ongoing advisory</span>
                 </div>
                 <div className="hero-actions">
                   <a className="btn btn-primary" href="/book-a-consultation/">
@@ -48,14 +45,14 @@ export default function Page() {
                   </a>
                   <a
                     className="btn btn-secondary"
-                    href="/services/legal-regulatory/international-legal-regulatory/#when-you-may-need-us"
+                    href="/services/legal-regulatory/international-legal-regulatory/#what-we-do"
                   >
-                    When to Involve Us
+                    Explore Our Services
                   </a>
                 </div>
               </div>
               <div
-                aria-label="International legal and regulatory advisory visual"
+                aria-label="International legal and FinTech advisory visual"
                 className="hero-visual"
               >
                 <img
@@ -74,298 +71,456 @@ export default function Page() {
             </div>
           </div>
         </section>
-        <section id="when-you-may-need-us">
+        <section id="who">
           <div className="container">
             <div className="section-head">
-              <div className="section-kicker">When businesses come to us</div>
-              <h2>When the legal question is part of a business decision.</h2>
+              <div className="section-kicker">Who this is for</div>
+              <h2>When should you involve us?</h2>
               <p>
-                Clients typically involve us when a matter is cross-border,
-                commercially significant, evolving or too complex to be reduced
-                to a single standard legal task.
+                This service is designed for decisions that need legal and
+                regulatory judgement across a business model, market or ongoing
+                operation — rather than only a single document.
               </p>
             </div>
             <div className="workstreams-grid">
               <div className="workstream">
-                <div className="n">01 / EXPAND</div>
-                <h3>Entering or evaluating a new market.</h3>
+                <div className="n">01 / FINTECH FOUNDERS</div>
+                <h3>You are launching a new financial product.</h3>
                 <p>
-                  You need to understand the legal and regulatory implications
-                  of operating, expanding or restructuring across jurisdictions
-                  before committing resources.
+                  You need to understand which parts of your model are
+                  regulated, how partner responsibilities work and what requires
+                  a dedicated licensing or perimeter assessment.
                 </p>
               </div>
               <div className="workstream">
-                <div className="n">02 / LAUNCH</div>
-                <h3>Launching a new product or business model.</h3>
+                <div className="n">02 / INTERNATIONAL BUSINESSES</div>
+                <h3>You are entering another market.</h3>
                 <p>
-                  You need legal input on how a product, service, partnership or
-                  operating model fits within the relevant legal and regulatory
-                  framework.
+                  You need to map local requirements, compare realistic
+                  operating routes and establish where locally qualified advice
+                  is necessary.
                 </p>
               </div>
               <div className="workstream">
-                <div className="n">03 / COMPLEXITY</div>
-                <h3>
-                  Facing a question that spans jurisdictions or workstreams.
-                </h3>
+                <div className="n">03 / REGULATED COMPANIES</div>
+                <h3>Your operating model is changing.</h3>
                 <p>
-                  You need one coherent legal strategy where commercial,
-                  corporate and regulatory considerations cannot sensibly be
-                  assessed in isolation.
+                  New products, providers, distribution channels or regulations
+                  create questions for senior management and compliance teams.
                 </p>
               </div>
               <div className="workstream">
-                <div className="n">04 / CHANGE</div>
-                <h3>Responding to regulatory change.</h3>
+                <div className="n">04 / MANAGEMENT TEAMS</div>
+                <h3>You need consistent external advice.</h3>
                 <p>
-                  You need to determine how legislative, regulatory or
-                  supervisory developments affect current operations, planned
-                  activity or management decisions.
+                  You face recurring commercial and regulatory questions but do
+                  not require a full-time in-house resource.
                 </p>
               </div>
               <div className="workstream">
-                <div className="n">05 / SUPPORT</div>
-                <h3>Needing senior external legal support.</h3>
+                <div className="n">05 / IN-HOUSE TEAMS</div>
+                <h3>Your legal or compliance team needs capacity.</h3>
                 <p>
-                  You need experienced legal capability for recurring
-                  management, product or cross-border issues without building or
-                  expanding a full in-house legal function.
+                  You need focused support on defined matters, regulatory
+                  research or cross-border project coordination.
                 </p>
               </div>
               <div className="workstream">
-                <div className="n">06 / CAPACITY</div>
-                <h3>Supporting an existing legal or compliance team.</h3>
+                <div className="n">06 / CROSS-BORDER GROUPS</div>
+                <h3>Different rules affect one decision.</h3>
                 <p>
-                  You need additional senior capacity for a complex project,
-                  regulatory matter or period of increased legal workload while
-                  your internal team retains day-to-day ownership.
+                  You need a coordinated approach where several entities,
+                  countries, products or providers interact.
                 </p>
               </div>
             </div>
           </div>
         </section>
-        <section className="problem-section" id="advisory-scope">
+        <section className="problem-section" id="what-we-do">
           <div className="container">
             <div className="section-head">
-              <div className="section-kicker">What we advise on</div>
-              <h2>
-                Focused advice for complex international business matters.
-              </h2>
+              <div className="section-kicker">Defined services</div>
+              <h2>What we can do for your business.</h2>
               <p>
-                The service is designed for strategic and continuing legal
-                questions. Defined specialist deliverables remain separately
-                scoped under the relevant service.
+                Select a specific business problem. For each instruction, we
+                confirm the activities, jurisdictional assumptions and output
+                before work begins. A specialised standalone report or document
+                is a separate service where indicated.
               </p>
             </div>
             <div className="problem-grid">
               <article className="problem-card" data-no="01">
-                <h3>Cross-Border Legal Strategy</h3>
+                <h3>Cross-Border Legal &amp; Regulatory Strategy</h3>
                 <p>
-                  Legal and regulatory implications of operating, expanding or
-                  restructuring across jurisdictions, including key
-                  dependencies, restrictions and decision points.
+                  <strong>When this helps:</strong> For businesses entering a
+                  new country or reorganising cross-border operations.
                 </p>
                 <ul className="micro-list">
-                  <li>Jurisdiction analysis</li>
-                  <li>Expansion considerations</li>
-                  <li>Cross-border restrictions</li>
-                  <li>Strategic legal options</li>
+                  <li>
+                    Review the proposed activities, operating entities and
+                    target countries.
+                  </li>
+                  <li>
+                    Map material regulatory and contractual dependencies that
+                    could affect the proposed route.
+                  </li>
+                  <li>
+                    Compare feasible entry approaches at a high level and
+                    identify questions requiring local counsel.
+                  </li>
                 </ul>
+                <p>
+                  <strong>What you receive:</strong> Jurisdiction issues matrix,
+                  written options summary and a sequenced action roadmap.
+                </p>
               </article>
               <article className="problem-card" data-no="02">
-                <h3>Business Models &amp; New Products</h3>
+                <h3>FinTech Business Models &amp; Regulatory Questions</h3>
                 <p>
-                  Legal and regulatory assessment of new products, services,
-                  partnerships and operating models before or during
-                  implementation.
+                  <strong>When this helps:</strong> For FinTech, payment,
+                  e-money, embedded-finance and digital-asset businesses
+                  assessing a defined product or partnership.
                 </p>
                 <ul className="micro-list">
-                  <li>Product launches</li>
-                  <li>Service models</li>
-                  <li>Partnership structures</li>
-                  <li>Regulatory dependencies</li>
+                  <li>
+                    Review how the product works, who holds or moves
+                    funds/assets, and the roles of technology and regulated
+                    partners.
+                  </li>
+                  <li>
+                    Identify potentially relevant regulatory regimes and key
+                    authorisation, safeguarding, outsourcing or
+                    consumer-protection questions.
+                  </li>
+                  <li>
+                    Assess the regulatory implications of proposed changes to
+                    customer journeys, partnerships or operating arrangements.
+                  </li>
                 </ul>
+                <p>
+                  <strong>What you receive:</strong> Product-specific advisory
+                  note, regulatory issues list and recommended next steps.
+                </p>
               </article>
               <article className="problem-card" data-no="03">
                 <h3>Regulatory Change &amp; Business Impact</h3>
                 <p>
-                  Practical analysis of how new or changing rules, guidance and
-                  supervisory expectations may affect existing activities and
-                  future plans.
+                  <strong>When this helps:</strong> For established businesses
+                  needing to understand a specific legal or regulatory change.
                 </p>
                 <ul className="micro-list">
-                  <li>Change impact</li>
-                  <li>Management briefings</li>
-                  <li>Risk identification</li>
-                  <li>Implementation priorities</li>
+                  <li>
+                    Identify the relevant new rule, implementation date and
+                    affected business activities.
+                  </li>
+                  <li>
+                    Review the gap between the identified requirement and
+                    current policies, responsibilities or processes at a
+                    preliminary level.
+                  </li>
+                  <li>
+                    Prioritise decisions, owners and follow-up work; coordinate
+                    local-law input where needed.
+                  </li>
                 </ul>
+                <p>
+                  <strong>What you receive:</strong> Targeted change briefing,
+                  impact matrix and management action list.
+                </p>
               </article>
               <article className="problem-card" data-no="04">
-                <h3>Complex Legal &amp; Regulatory Matters</h3>
+                <h3>International Corporate &amp; Commercial Advisory</h3>
                 <p>
-                  Advice where legal, commercial, corporate and regulatory
-                  considerations need to be assessed together rather than
-                  through isolated workstreams.
+                  <strong>When this helps:</strong> For management teams facing
+                  a defined governance, corporate or commercial decision.
                 </p>
                 <ul className="micro-list">
-                  <li>Complex legal issues</li>
-                  <li>Strategic decisions</li>
-                  <li>Interacting requirements</li>
-                  <li>Risk-based options</li>
+                  <li>
+                    Analyse decision-making responsibilities, group arrangements
+                    or material contractual dependencies.
+                  </li>
+                  <li>
+                    Advise on allocation of responsibilities among shareholders,
+                    management and commercial counterparties.
+                  </li>
+                  <li>
+                    Identify whether a formal restructuring, transaction,
+                    document drafting or specialist opinion is necessary.
+                  </li>
                 </ul>
+                <p>
+                  <strong>What you receive:</strong> Issue-specific written
+                  recommendations, governance options or transaction-readiness
+                  checklist.
+                </p>
               </article>
               <article className="problem-card" data-no="05">
-                <h3>Ongoing External Legal Support</h3>
+                <h3>Outsourced Legal &amp; Regulatory Support</h3>
                 <p>
-                  Senior legal and regulatory support for businesses requiring
-                  continuing external capability or additional support alongside
-                  an existing internal team.
+                  <strong>When this helps:</strong> For businesses seeking
+                  recurring support under a defined monthly service schedule.
                 </p>
                 <ul className="micro-list">
-                  <li>Recurring legal advice</li>
-                  <li>Management support</li>
-                  <li>Issue spotting</li>
-                  <li>Project capacity</li>
+                  <li>
+                    Respond to routine, specifically agreed non-reserved legal
+                    or regulatory questions.
+                  </li>
+                  <li>
+                    Provide targeted comments on business arrangements, selected
+                    contractual clauses and governance decisions.
+                  </li>
+                  <li>
+                    Support management or in-house legal/compliance staff
+                    through scheduled calls and short written advice.
+                  </li>
                 </ul>
+                <p>
+                  <strong>What you receive:</strong> Substantive advice on
+                  accepted instructions plus an itemised monthly work and time
+                  report.
+                </p>
               </article>
               <article className="problem-card" data-no="06">
-                <h3>Multi-Jurisdiction Coordination</h3>
+                <h3>Multi-Jurisdiction Advisory Coordination</h3>
                 <p>
-                  Coordination of matters involving several jurisdictions so the
-                  business receives a coherent overall view, with local-law
-                  input identified where required.
+                  <strong>When this helps:</strong> For projects requiring input
+                  from independently engaged advisers in more than one country.
                 </p>
                 <ul className="micro-list">
-                  <li>Multi-country matters</li>
-                  <li>Local-law dependencies</li>
-                  <li>Coordinated analysis</li>
-                  <li>Cross-border execution</li>
+                  <li>
+                    Define the questions and deliverables that each
+                    jurisdictional specialist should address.
+                  </li>
+                  <li>
+                    Coordinate workstreams, information requests, meetings and
+                    deadlines with client-appointed advisers.
+                  </li>
+                  <li>
+                    Consolidate practical dependencies and highlight differences
+                    requiring client decisions.
+                  </li>
                 </ul>
+                <p>
+                  <strong>What you receive:</strong> Consolidated workstream
+                  tracker, decision log and coordination summary; local
+                  professional opinions remain separate.
+                </p>
               </article>
             </div>
-            <div aria-label="Scope boundary" className="included-strip">
-              <strong>Specialist deliverables remain distinct</strong>
-              <div className="included-items">
-                <span>Commercial contracts</span>
-                <span>Formal legal opinions</span>
-                <span>Due diligence</span>
-                <span>Regulatory perimeter assessments</span>
-              </div>
-            </div>
           </div>
         </section>
-        <section>
+        <section className="dark" id="deliverables">
           <div className="container">
             <div className="section-head">
-              <div className="section-kicker">How we work</div>
-              <h2>From business objective to practical legal direction.</h2>
+              <div className="section-kicker">What you receive</div>
+              <h2>Advice built around a decision, not just a discussion.</h2>
               <p>
-                We structure the engagement around the decision the client needs
-                to make, rather than around an abstract legal checklist.
+                We agree the expected work product before engagement. Depending
+                on the matter, it may include:
               </p>
             </div>
-            <div className="workstreams-grid">
-              <div className="workstream">
-                <div className="n">01 / BUSINESS FIRST</div>
-                <h3>Start with the objective.</h3>
+            <div className="deliver-grid">
+              <div className="deliver">
+                <div className="num">01</div>
+                <h3>Focused advisory note</h3>
                 <p>
-                  We begin with the transaction, product, operating model,
-                  expansion plan or management question that requires legal
-                  input.
+                  A written response identifying applicable issues, key
+                  assumptions, material risks and practical options.
                 </p>
               </div>
-              <div className="workstream">
-                <div className="n">02 / DEFINED SCOPE</div>
-                <h3>Agree what needs to be answered.</h3>
+              <div className="deliver">
+                <div className="num">02</div>
+                <h3>Decision or action roadmap</h3>
                 <p>
-                  The relevant jurisdictions, legal questions, assumptions,
-                  expected output and scope are defined before substantive work
-                  begins.
+                  Prioritised next steps, responsible workstreams and
+                  dependencies to resolve before launch or expansion.
                 </p>
               </div>
-              <div className="workstream">
-                <div className="n">03 / PRACTICAL ADVICE</div>
-                <h3>Translate law into decisions.</h3>
+              <div className="deliver">
+                <div className="num">03</div>
+                <h3>Ongoing management support</h3>
                 <p>
-                  We explain what applies, what remains uncertain, the material
-                  risks and the practical options available to management.
-                </p>
-              </div>
-              <div className="workstream">
-                <div className="n">04 / COORDINATION</div>
-                <h3>Keep cross-border work coherent.</h3>
-                <p>
-                  Where several jurisdictions or specialist inputs are involved,
-                  the work is coordinated around one overall business objective.
-                </p>
-              </div>
-              <div className="workstream">
-                <div className="n">05 / FLEXIBLE SUPPORT</div>
-                <h3>Project-based or ongoing.</h3>
-                <p>
-                  Support may be structured for a defined project or provided on
-                  an ongoing basis where the business requires continuing
-                  external legal capability.
+                  Scheduled calls, documented advice, agreed short deliverables
+                  and transparent monthly time reports.
                 </p>
               </div>
             </div>
+            <p>
+              The exact deliverables depend on the agreed scope. Specialist
+              reports and comprehensive implementations are separate
+              engagements.
+            </p>
           </div>
         </section>
-        <section className="distinction">
-          <div className="container">
-            <div className="distinction-wrap">
-              <div>
-                <div className="section-kicker">
-                  Confidentiality &amp; professional handling
-                </div>
-                <h2>Sensitive matters are handled with discretion.</h2>
-                <p>
-                  We treat information shared in connection with potential and
-                  existing engagements as confidential and handle client
-                  materials on a need-to-know basis. Where appropriate, a
-                  separate confidentiality agreement may be put in place before
-                  sensitive commercial or strategic information is disclosed.
-                </p>
-              </div>
-              <div aria-label="Engagement principles" className="journey">
-                <div className="journey-step">
-                  <b>01</b>
-                  <span>Confidential handling of client information</span>
-                </div>
-                <div className="journey-step">
-                  <b>02</b>
-                  <span>Defined scope, jurisdictions and expected output</span>
-                </div>
-                <div className="journey-step">
-                  <b>03</b>
-                  <span>Access limited to what the matter requires</span>
-                </div>
-                <div className="journey-step">
-                  <b>04</b>
-                  <span>
-                    Clear identification of assumptions and dependencies
-                  </span>
-                </div>
-                <div className="journey-step">
-                  <b>05</b>
-                  <span>
-                    Local or specialist input involved only where needed
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section>
+        <section className="paper" id="retainer">
           <div className="container">
             <div className="section-head">
-              <div className="section-kicker">Related specialist services</div>
-              <h2>When the matter requires a defined legal deliverable.</h2>
+              <div className="section-kicker">Ongoing support</div>
+              <h2>Ongoing advisory, with a clear scope.</h2>
               <p>
-                International Legal &amp; Regulatory Advisory does not replace
-                specialist engagements. Where the client needs a specific work
-                product, the matter is scoped under the relevant service.
+                A monthly allocation for recurring accepted legal and regulatory
+                questions — not an unlimited legal department. Choose the
+                advisory focus and agree eligible tasks before starting.
+              </p>
+            </div>
+            <div className="price-tiers">
+              <div className="price-tier">
+                <div className="price-label">01 / Essential</div>
+                <h3>Occasional Advisory Support</h3>
+                <p>For occasional recurring questions and focused advice.</p>
+                <div className="price">5</div>
+                <p
+                  className="price-label"
+                  style={{ textTransform: "none", letterSpacing: 0 }}
+                >
+                  hours / month
+                </p>
+              </div>
+              <div className="price-tier">
+                <div className="price-label">02 / Business</div>
+                <h3>Regular Management Support</h3>
+                <p>For regular management and regulatory support.</p>
+                <div className="price">10</div>
+                <p
+                  className="price-label"
+                  style={{ textTransform: "none", letterSpacing: 0 }}
+                >
+                  hours / month
+                </p>
+              </div>
+              <div className="price-tier">
+                <div className="price-label">03 / Extended</div>
+                <h3>Extended Advisory Coverage</h3>
+                <p>For ongoing work across several defined advisory topics.</p>
+                <div className="price">15</div>
+                <p
+                  className="price-label"
+                  style={{ textTransform: "none", letterSpacing: 0 }}
+                >
+                  hours / month
+                </p>
+              </div>
+            </div>
+            <p className="price-note">
+              Choose 5, 10 or 15 hours per month. Package pricing is provided in
+              a written proposal after scope and complexity are assessed; public
+              fixed prices are not yet approved.
+            </p>
+            <div className="boundary-box">
+              <div className="boundary-row">
+                <strong>Included within the agreed scope</strong>
+                <ul className="micro-list">
+                  <li>
+                    Consultations on agreed day-to-day non-reserved legal or
+                    regulatory questions.
+                  </li>
+                  <li>
+                    Short written responses and focused reviews of defined
+                    business-model issues.
+                  </li>
+                  <li>
+                    Comments on selected clauses or governance documents when
+                    expressly included in the Service Schedule.
+                  </li>
+                  <li>
+                    Regulatory-change explanation for named markets and
+                    regulatory themes.
+                  </li>
+                  <li>
+                    Meetings with management or the in-house legal/compliance
+                    team.
+                  </li>
+                  <li>Itemised monthly time and work report.</li>
+                </ul>
+              </div>
+              <div className="boundary-row">
+                <strong>Not included in the retainer</strong>
+                <ul className="micro-list">
+                  <li>
+                    Full drafting or comprehensive review of contracts —
+                    Commercial Contracts service.
+                  </li>
+                  <li>
+                    Formal legal opinions, comprehensive regulatory perimeter
+                    assessments and due diligence reports.
+                  </li>
+                  <li>
+                    Licence applications, formal submissions, investigations or
+                    regulatory representation.
+                  </li>
+                  <li>
+                    Implementation projects, full AML/CFT or DORA frameworks,
+                    audits and independent reviews.
+                  </li>
+                  <li>
+                    Reserved legal activities, litigation, specialist tax advice
+                    and regulated financial advice.
+                  </li>
+                  <li>
+                    Jurisdiction-specific local counsel advice and all
+                    third-party charges.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="callout">
+              <strong>Commercial framework.</strong> 5, 10 or 15 hours per
+              month; an initial three-month term; unused hours do not roll over.
+              The precise permitted tasks, response times, fees, accounting of
+              time and remedies are set out in the Engagement Letter and
+              Retainer Service Schedule.
+            </div>
+            <div className="hero-actions" style={{ marginTop: "24px" }}>
+              <a className="btn btn-primary" href="/book-a-consultation/">
+                Discuss a Monthly Retainer
+              </a>
+            </div>
+          </div>
+        </section>
+        <section id="how">
+          <div className="container">
+            <div className="section-head">
+              <div className="section-kicker">How it works</div>
+              <h2>A clear process from question to scope.</h2>
+            </div>
+            <div className="process-grid">
+              <article className="process-step">
+                <span className="num">01 / DISCOVERY</span>
+                <h3>Tell us what you need to decide.</h3>
+                <p>
+                  Share the business activity, target jurisdictions, key concern
+                  and timeframe. We identify the relevant advisory question.
+                </p>
+              </article>
+              <article className="process-step">
+                <span className="num">02 / SCOPE</span>
+                <h3>Agree the precise work.</h3>
+                <p>
+                  We set out included and excluded tasks, deliverables,
+                  assumptions, timetable and fees before substantive work
+                  begins.
+                </p>
+              </article>
+              <article className="process-step">
+                <span className="num">03 / DELIVERY</span>
+                <h3>Receive practical advice.</h3>
+                <p>
+                  You receive the agreed analysis or ongoing assistance, with
+                  clear next steps and specialist dependencies identified.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section id="related">
+          <div className="container">
+            <div className="section-head">
+              <div className="section-kicker">Specialist services</div>
+              <h2>Need a defined specialist deliverable?</h2>
+              <p>
+                This page covers strategic and ongoing advisory. The following
+                existing services are scoped separately when the client needs a
+                complete document, report or specialist project.
               </p>
             </div>
             <div className="related-grid">
@@ -408,108 +563,75 @@ export default function Page() {
                   perimeter.
                 </span>
               </a>
+              <a
+                className="related-card"
+                href="/services/legal-regulatory/payments-financial-services-regulatory/"
+              >
+                <strong>Payments &amp; Financial Services Regulatory</strong>
+                <span>
+                  Payments and financial-services regulatory advisory on
+                  perimeter, conduct, governance and compliance requirements.
+                </span>
+              </a>
             </div>
           </div>
         </section>
-        <section className="faq-section">
+        <section className="faq-section" id="faq">
           <div className="container">
             <div className="section-head">
               <div className="section-kicker">Common questions</div>
               <h2>Frequently asked questions</h2>
-              <p>
-                Practical answers on scope, ongoing support, multi-jurisdiction
-                matters and confidentiality.
-              </p>
             </div>
             <div className="faq-grid">
               <div className="faq-item">
-                <h3>
-                  When should we use International Legal &amp; Regulatory
-                  Advisory?
-                </h3>
+                <h3>Is this service only for FinTech companies?</h3>
                 <p>
-                  This service is appropriate where the business needs strategic
-                  or continuing legal input on a complex, cross-border or
-                  evolving matter rather than a single predefined document or
-                  review.
-                </p>
-              </div>
-              <div className="faq-item">
-                <h3>Can you support us on an ongoing basis?</h3>
-                <p>
-                  Yes. We can provide ongoing external legal and regulatory
-                  support for recurring management, product, operational or
-                  cross-border issues, either as an external legal resource or
-                  alongside an existing in-house team.
+                  No. FinTech and financial services are core specialisms, but
+                  international commercial and technology businesses can also
+                  use cross-border and ongoing advisory support.
                 </p>
               </div>
               <div className="faq-item">
                 <h3>
-                  Can you work alongside our existing legal or compliance team?
+                  What is the difference between this page and Commercial
+                  Contracts?
                 </h3>
                 <p>
-                  Yes. We can provide additional senior capacity for complex
-                  projects, regulatory matters or periods of increased workload
-                  while the client’s internal team retains day-to-day ownership.
+                  International Legal &amp; FinTech Advisory focuses on business
+                  decisions, regulatory questions and continuing advice. A
+                  standalone drafting or full review assignment is handled under
+                  Commercial Contracts, with its own agreed deliverables.
                 </p>
               </div>
               <div className="faq-item">
                 <h3>
-                  Can you advise on matters involving several jurisdictions?
+                  Can a FinTech client combine legal and regulatory matters in
+                  one monthly package?
                 </h3>
                 <p>
-                  Yes. We can structure and coordinate multi-jurisdiction
-                  matters, identify where local-law input is required and
-                  integrate the relevant work into a coherent legal and
-                  regulatory strategy.
+                  Yes, if the combined scope and jurisdictions are agreed in
+                  advance. The selected monthly hour allocation is shared across
+                  included workstreams; it is not an unlimited entitlement to
+                  separate services.
+                </p>
+              </div>
+              <div className="faq-item">
+                <h3>What happens if I do not use my monthly hours?</h3>
+                <p>
+                  Unused hours expire at the end of the monthly service period
+                  and do not roll over, subject to the agreed remedies for work
+                  accepted but not delivered due to the provider’s failure and
+                  any mandatory legal rights.
                 </p>
               </div>
               <div className="faq-item">
                 <h3>
-                  How is this different from a legal opinion or regulatory
-                  perimeter assessment?
+                  What happens if a question is too complex for the package?
                 </h3>
                 <p>
-                  International Legal &amp; Regulatory Advisory supports broader
-                  decision-making on a project or continuing basis. A legal
-                  opinion, regulatory memorandum or perimeter assessment is a
-                  separately scoped specialist deliverable addressing a defined
-                  question.
-                </p>
-              </div>
-              <div className="faq-item">
-                <h3>Is our initial discussion confidential?</h3>
-                <p>
-                  We treat information shared in connection with potential and
-                  existing engagements as confidential. Where appropriate, a
-                  separate NDA may be agreed before detailed commercial,
-                  strategic or otherwise sensitive information is disclosed. The
-                  precise legal protections applicable to communications may
-                  depend on the engagement, jurisdiction and nature of the
-                  matter.
-                </p>
-              </div>
-              <div className="faq-item">
-                <h3>How is the scope of an engagement defined?</h3>
-                <p>
-                  We agree the business objective, relevant jurisdictions,
-                  principal legal questions, assumptions and expected output
-                  before substantive work begins. If a specialist deliverable
-                  becomes necessary, that work is identified and scoped
-                  separately.
-                </p>
-              </div>
-              <div className="faq-item">
-                <h3>
-                  Do you coordinate with local counsel where local-law advice is
-                  required?
-                </h3>
-                <p>
-                  Yes. Where jurisdiction-specific advice or a locally reserved
-                  legal service is required, the matter can be coordinated with
-                  appropriately qualified local counsel while keeping the
-                  overall workstream aligned with the client’s business
-                  objective.
+                  We explain why additional work is needed and seek written
+                  approval for a revised scope, additional hours or a separate
+                  specialist project before incurring extra fees.
                 </p>
               </div>
             </div>
@@ -559,16 +681,16 @@ export default function Page() {
             <div className="container final-cta-inner">
               <div>
                 <div className="section-kicker">
-                  Discuss a legal or regulatory matter
+                  Start with your business question
                 </div>
                 <h2>
-                  Discuss the business issue before it becomes a legal obstacle.
+                  Tell us what your business is planning — and what needs to be
+                  resolved.
                 </h2>
                 <p>
-                  Tell us what the business is planning, where it operates and
-                  what management needs to decide. We will identify the legal
-                  and regulatory questions, define the scope and explain the
-                  practical next steps.
+                  Describe your product, market or ongoing advisory needs. We
+                  will assess the appropriate service scope and explain the next
+                  steps before engagement.
                 </p>
               </div>
               <div className="final-cta-actions">
