@@ -273,7 +273,7 @@ export default function Page() {
             </div>
           </div>
         </section>
-        <section className="distinction">
+        <section className="section paper">
           <div className="container">
             <div className="section-head">
               <div className="section-kicker">Jurisdictional coverage</div>
@@ -282,7 +282,7 @@ export default function Page() {
                 scope.
               </h2>
             </div>
-            <div className="dark-card">
+            <div className="card">
               <h3>UK &amp; selected international markets</h3>
               <p>
                 We undertake substantive regulatory analysis for agreed
@@ -297,13 +297,13 @@ export default function Page() {
                 arranged.
               </p>
             </div>
-            <p style={{ marginTop: "22px", color: "var(--ink-muted)" }}>
+            <p style={{ marginTop: "22px", color: "var(--muted-foreground)" }}>
               Interested in EU regulatory compliance assessments? Explore our{" "}
               <a
                 href="https://www.artlexconsult.com/services/legal-regulatory/regulatory-gap-assessment/"
                 rel="noopener noreferrer"
                 target="_blank"
-                style={{ color: "var(--gold)", fontWeight: 700 }}
+                style={{ color: "var(--primary)", fontWeight: 700 }}
               >
                 EU Regulatory Gap Assessment
               </a>
