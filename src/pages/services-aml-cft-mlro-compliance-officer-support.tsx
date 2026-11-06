@@ -73,21 +73,24 @@ export default function Page() {
             </div>
             <div className="problem-grid">
               <article className="problem-card">
-                <h3>01 / Advise — Expert guidance</h3>
+                <span className="num">01 / ADVISE</span>
+                <h3>Expert guidance</h3>
                 <p>
                   Second opinions on CDD/EDD, escalations, policies and
                   difficult compliance questions.
                 </p>
               </article>
               <article className="problem-card">
-                <h3>02 / Operate — Operational support</h3>
+                <span className="num">02 / OPERATE</span>
+                <h3>Operational support</h3>
                 <p>
                   Defined KYC/KYB, screening and monitoring-support tasks with
                   documented quality checks and escalation routes.
                 </p>
               </article>
               <article className="problem-card">
-                <h3>03 / Oversee — Governance support</h3>
+                <span className="num">03 / OVERSEE</span>
+                <h3>Governance support</h3>
                 <p>
                   Review of AML activity, open issues, remediation progress and
                   management information alongside internal accountable
@@ -203,7 +206,7 @@ export default function Page() {
                   / month
                 </p>
               </div>
-              <div className="price-tier">
+              <div className="price-tier featured">
                 <div className="price-label">04 / Managed operations</div>
                 <h3>Managed AML Operations</h3>
                 <p>
@@ -324,8 +327,11 @@ export default function Page() {
                   and reporting structure. Detailed procedures and
                   implementation are separately scoped.
                 </p>
-                <p>
-                  <strong>From €5,500 · Project fee</strong>
+                <p
+                  className="price-label"
+                  style={{ textTransform: "none", letterSpacing: 0 }}
+                >
+                  From €5,500 · Project fee
                 </p>
               </article>
               <article className="problem-card">
@@ -335,8 +341,11 @@ export default function Page() {
                   handover and initial workflow validation. Software
                   implementation is not included by default.
                 </p>
-                <p>
-                  <strong>From €12,500 · Project fee</strong>
+                <p
+                  className="price-label"
+                  style={{ textTransform: "none", letterSpacing: 0 }}
+                >
+                  From €12,500 · Project fee
                 </p>
               </article>
               <article className="problem-card">
@@ -346,8 +355,11 @@ export default function Page() {
                   calendar and continuity support; no formal appointment is
                   assumed.
                 </p>
-                <p>
-                  <strong>From €2,500 · Project fee</strong>
+                <p
+                  className="price-label"
+                  style={{ textTransform: "none", letterSpacing: 0 }}
+                >
+                  From €2,500 · Project fee
                 </p>
               </article>
               <article className="problem-card">
@@ -357,8 +369,11 @@ export default function Page() {
                   agreed sample or case inventory. Regulatory inspection support
                   is quoted separately.
                 </p>
-                <p>
-                  <strong>From €2,500 · Limited-scope project</strong>
+                <p
+                  className="price-label"
+                  style={{ textTransform: "none", letterSpacing: 0 }}
+                >
+                  From €2,500 · Limited-scope project
                 </p>
               </article>
             </div>
