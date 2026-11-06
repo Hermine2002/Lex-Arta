@@ -413,6 +413,7 @@
 @media(max-width:800px) { .price-tiers { grid-template-columns:1fr 1fr; } }
 @media(max-width:520px) { .price-tiers { grid-template-columns:1fr; } }
 .related-banner { padding:50px 0; background:var(--muted); border-top:1px solid var(--border); border-bottom:1px solid var(--border); }
+.related-banner.gradient { background:linear-gradient(112deg,var(--hero-wash) 60%,var(--accent)); }
 .related-banner .container { display:flex; align-items:center; justify-content:space-between; gap:30px; flex-wrap:wrap; }
 .related-banner h2 { margin-bottom:8px; font-size:28px; }
 .related-banner p { color:var(--muted-foreground); margin:0; max-width:600px; }

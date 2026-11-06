@@ -217,7 +217,7 @@ export default function Page() {
             </div>
           </div>
         </section>
-        <section className="related-banner">
+        <section className="related-banner gradient">
           <div className="container">
             <div>
               <p className="section-kicker">Related service · EU licensing</p>
