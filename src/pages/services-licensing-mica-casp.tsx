@@ -6,8 +6,7 @@ export const meta: PageMeta = {
   heading: "MiCA CASP Licensing & EU Authorisation",
   description:
     "MiCA CASP licensing support: jurisdiction selection, readiness assessment and authorisation preparation for EU crypto-asset service providers.",
-  heroImage:
-    "/images/licensing-strategy-hero-1.webp",
+  heroImage: "/images/licensing-strategy-hero-1.webp",
 };
 
 const contactLink = "/book-a-consultation/";
@@ -30,10 +29,8 @@ export default function Page() {
             </p>
             <h1>MiCA CASP Licensing &amp; EU Authorisation</h1>
             <p className="hero-lead">
-              A structured regulatory route for crypto-asset businesses seeking
-              authorisation in the European Union — from service classification
-              and licensing readiness to preparation of the CASP application
-              dossier and supervisory support.
+              EU CASP authorisation, readiness assessments and regulatory
+              application support.
             </p>
             <div className="hero-actions">
               <a className="btn btn-primary" href="#assessments">
