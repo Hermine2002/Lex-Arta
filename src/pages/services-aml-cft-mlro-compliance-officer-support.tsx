@@ -13,11 +13,6 @@ export default function Page() {
   return (
     <>
       <main>
-        <div className="container breadcrumb">
-          <a href="/">Home</a>&nbsp; / &nbsp;
-          <a href="/services/aml-cft/">AML/CFT</a>&nbsp; / &nbsp;MLRO &amp;
-          Compliance Officer Support
-        </div>
         <section className="hero">
           <img
             alt=""
