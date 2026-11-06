@@ -17,15 +17,21 @@ export default function Page() {
           <div className="container">
             <div className="hero-grid">
               <div className="hero-copy">
-                <div className="eyebrow">LEX ARTA · Commercial Contracts · Cross-Border</div>
+                <div className="eyebrow">
+                  LEX ARTA · Commercial Contracts · Cross-Border
+                </div>
                 <h1>Commercial Contracts</h1>
                 <p className="hero-lead">
                   {" "}
-                  Drafting, review and negotiation of commercial agreements built around the actual
-                  operating model, allocation of responsibilities and regulatory dependencies
-                  between the parties.{" "}
+                  Drafting, review and negotiation of commercial agreements
+                  built around the actual operating model, allocation of
+                  responsibilities and regulatory dependencies between the
+                  parties.{" "}
                 </p>
-                <div aria-label="Key contract capabilities" className="hero-points">
+                <div
+                  aria-label="Key contract capabilities"
+                  className="hero-points"
+                >
                   <span>Service agreements</span>
                   <span>SaaS &amp; technology</span>
                   <span>Outsourcing</span>
@@ -45,7 +51,10 @@ export default function Page() {
                   </a>
                 </div>
               </div>
-              <div aria-label="Commercial contracts advisory visual" className="hero-visual">
+              <div
+                aria-label="Commercial contracts advisory visual"
+                className="hero-visual"
+              >
                 <img
                   alt="Professionals discussing commercial terms and agreement structure in a premium office setting"
                   loading="lazy"
@@ -58,7 +67,9 @@ export default function Page() {
         <section className="problem-section" id="problems">
           <div className="container">
             <div className="section-head">
-              <div className="section-kicker">Start with the commercial relationship</div>
+              <div className="section-kicker">
+                Start with the commercial relationship
+              </div>
               <h2>What kind of contract support does your business need?</h2>
             </div>
             <div className="problem-grid">
@@ -66,8 +77,9 @@ export default function Page() {
                 <h3>Need a new commercial agreement?</h3>
                 <p>
                   {" "}
-                  Structure the agreement around the actual services, responsibilities, commercial
-                  model and operational dependencies between the parties.{" "}
+                  Structure the agreement around the actual services,
+                  responsibilities, commercial model and operational
+                  dependencies between the parties.{" "}
                 </p>
                 <ul className="micro-list">
                   <li>Master services agreements</li>
@@ -83,8 +95,8 @@ export default function Page() {
                 <h3>Received a counterparty draft?</h3>
                 <p>
                   {" "}
-                  Review the proposed terms, identify legal, commercial and regulatory gaps, and set
-                  practical negotiation positions.{" "}
+                  Review the proposed terms, identify legal, commercial and
+                  regulatory gaps, and set practical negotiation positions.{" "}
                 </p>
                 <ul className="micro-list">
                   <li>Contract review</li>
@@ -100,8 +112,9 @@ export default function Page() {
                 <h3>Contracting for SaaS, software or a platform?</h3>
                 <p>
                   {" "}
-                  Define access, performance, support, data, intellectual property, service levels
-                  and liability in technology-driven relationships.{" "}
+                  Define access, performance, support, data, intellectual
+                  property, service levels and liability in technology-driven
+                  relationships.{" "}
                 </p>
                 <ul className="micro-list">
                   <li>SaaS agreements</li>
@@ -114,11 +127,14 @@ export default function Page() {
                 </a>
               </article>
               <article className="problem-card" data-no="04">
-                <h3>Outsourcing a function or relying on a critical provider?</h3>
+                <h3>
+                  Outsourcing a function or relying on a critical provider?
+                </h3>
                 <p>
                   {" "}
-                  Document the service, oversight, audit rights, sub-outsourcing controls, incident
-                  responsibilities and exit arrangements.{" "}
+                  Document the service, oversight, audit rights, sub-outsourcing
+                  controls, incident responsibilities and exit
+                  arrangements.{" "}
                 </p>
                 <ul className="micro-list">
                   <li>Outsourcing agreements</li>
@@ -131,11 +147,14 @@ export default function Page() {
                 </a>
               </article>
               <article className="problem-card" data-no="05">
-                <h3>Working through distributors, agents or commercial partners?</h3>
+                <h3>
+                  Working through distributors, agents or commercial partners?
+                </h3>
                 <p>
                   {" "}
-                  Define commercial authority, customer ownership, responsibilities, payment
-                  mechanics, information rights and termination arrangements.{" "}
+                  Define commercial authority, customer ownership,
+                  responsibilities, payment mechanics, information rights and
+                  termination arrangements.{" "}
                 </p>
                 <ul className="micro-list">
                   <li>Distribution agreements</li>
@@ -151,8 +170,9 @@ export default function Page() {
                 <h3>Using a white-label or regulated-partner model?</h3>
                 <p>
                   {" "}
-                  Align contractual responsibility with the actual service model, permissions,
-                  customer journey and compliance responsibilities of each party.{" "}
+                  Align contractual responsibility with the actual service
+                  model, permissions, customer journey and compliance
+                  responsibilities of each party.{" "}
                 </p>
                 <ul className="micro-list">
                   <li>White-label agreements</li>
@@ -168,8 +188,9 @@ export default function Page() {
                 <h3>Do existing contracts need to be updated?</h3>
                 <p>
                   {" "}
-                  Review existing agreements following regulatory change, provider changes,
-                  implementation issues or a revised operating model.{" "}
+                  Review existing agreements following regulatory change,
+                  provider changes, implementation issues or a revised operating
+                  model.{" "}
                 </p>
                 <ul className="micro-list">
                   <li>Contract remediation</li>
@@ -182,7 +203,10 @@ export default function Page() {
                 </a>
               </article>
             </div>
-            <div aria-label="Additional contract capabilities" className="included-strip">
+            <div
+              aria-label="Additional contract capabilities"
+              className="included-strip"
+            >
               <strong>Also covered within Commercial Contracts</strong>
               <div className="included-items">
                 <span>NDAs &amp; confidentiality</span>
@@ -199,14 +223,20 @@ export default function Page() {
           <div className="container">
             <div className="distinction-wrap">
               <div>
-                <div className="section-kicker">The contract follows the operating model</div>
-                <h2>A commercial agreement should reflect how the relationship actually works.</h2>
+                <div className="section-kicker">
+                  The contract follows the operating model
+                </div>
+                <h2>
+                  A commercial agreement should reflect how the relationship
+                  actually works.
+                </h2>
                 <p>
                   {" "}
-                  Price and liability are only part of the contract. The document may also determine
-                  who provides the service, who controls the customer relationship, who handles data
-                  or assets, what oversight rights exist and how the relationship can be
-                  exited.{" "}
+                  Price and liability are only part of the contract. The
+                  document may also determine who provides the service, who
+                  controls the customer relationship, who handles data or
+                  assets, what oversight rights exist and how the relationship
+                  can be exited.{" "}
                 </p>
               </div>
               <div aria-label="Typical contract workstream" className="journey">
@@ -237,12 +267,15 @@ export default function Page() {
         <section>
           <div className="container">
             <div className="section-head">
-              <div className="section-kicker">How LEX ARTA structures the work</div>
+              <div className="section-kicker">
+                How LEX ARTA structures the work
+              </div>
               <h2>From commercial model to workable contract.</h2>
               <p>
                 {" "}
-                We start with the relationship itself rather than a generic template, then translate
-                the commercial and regulatory allocation into clear contractual terms.{" "}
+                We start with the relationship itself rather than a generic
+                template, then translate the commercial and regulatory
+                allocation into clear contractual terms.{" "}
               </p>
             </div>
             <div className="workstreams-grid">
@@ -251,8 +284,9 @@ export default function Page() {
                 <h3>Start with the relationship.</h3>
                 <p>
                   {" "}
-                  We identify the parties, services, commercial model, customer journey and
-                  practical dependencies that the contract needs to reflect.{" "}
+                  We identify the parties, services, commercial model, customer
+                  journey and practical dependencies that the contract needs to
+                  reflect.{" "}
                 </p>
               </div>
               <div className="workstream">
@@ -260,8 +294,9 @@ export default function Page() {
                 <h3>Allocate responsibility.</h3>
                 <p>
                   {" "}
-                  We map operational duties, information rights, data or asset handling, oversight
-                  responsibilities and regulatory touchpoints.{" "}
+                  We map operational duties, information rights, data or asset
+                  handling, oversight responsibilities and regulatory
+                  touchpoints.{" "}
                 </p>
               </div>
               <div className="workstream">
@@ -269,8 +304,9 @@ export default function Page() {
                 <h3>Draft or review the terms.</h3>
                 <p>
                   {" "}
-                  We structure the agreement, review counterparty language and identify provisions
-                  that do not match the agreed operating model or risk allocation.{" "}
+                  We structure the agreement, review counterparty language and
+                  identify provisions that do not match the agreed operating
+                  model or risk allocation.{" "}
                 </p>
               </div>
               <div className="workstream">
@@ -278,8 +314,9 @@ export default function Page() {
                 <h3>Close the material gaps.</h3>
                 <p>
                   {" "}
-                  Where required, we prepare redlines, negotiation positions, amendments and
-                  remediation steps so the final agreement is commercially workable.{" "}
+                  Where required, we prepare redlines, negotiation positions,
+                  amendments and remediation steps so the final agreement is
+                  commercially workable.{" "}
                 </p>
               </div>
             </div>
@@ -291,48 +328,59 @@ export default function Page() {
               <div className="section-kicker">Common Questions</div>
               <h2>Frequently asked questions</h2>
               <p>
-                Clear answers to common questions about commercial contract drafting, review and
-                regulatory alignment.
+                Clear answers to common questions about commercial contract
+                drafting, review and regulatory alignment.
               </p>
             </div>
             <div className="faq-grid">
               <div className="faq-item">
-                <h3>Can you review a counterparty's draft instead of preparing a new agreement?</h3>
+                <h3>
+                  Can you review a counterparty's draft instead of preparing a
+                  new agreement?
+                </h3>
                 <p>
                   {" "}
-                  Yes. We can review a draft against the actual commercial model, legal requirements
-                  and allocation of responsibilities, and provide comments, redlines and negotiation
-                  positions.{" "}
-                </p>
-              </div>
-              <div className="faq-item">
-                <h3>Is this service limited to financial or regulated businesses?</h3>
-                <p>
-                  {" "}
-                  No. We support cross-border commercial relationships generally, with particular
-                  strength where contracts interact with technology, regulation, data, outsourcing
-                  or regulated services.{" "}
+                  Yes. We can review a draft against the actual commercial
+                  model, legal requirements and allocation of responsibilities,
+                  and provide comments, redlines and negotiation positions.{" "}
                 </p>
               </div>
               <div className="faq-item">
                 <h3>
-                  Can contracts be reviewed for payments, AML or data-protection requirements?
+                  Is this service limited to financial or regulated businesses?
                 </h3>
                 <p>
                   {" "}
-                  Yes. Where relevant, the contract workstream can be coordinated with the
-                  applicable regulatory or compliance analysis so that contractual obligations are
-                  consistent with the wider framework.{" "}
+                  No. We support cross-border commercial relationships
+                  generally, with particular strength where contracts interact
+                  with technology, regulation, data, outsourcing or regulated
+                  services.{" "}
                 </p>
               </div>
               <div className="faq-item">
-                <h3>What happens if local-law advice or formal local sign-off is required?</h3>
+                <h3>
+                  Can contracts be reviewed for payments, AML or data-protection
+                  requirements?
+                </h3>
                 <p>
                   {" "}
-                  Where applicable law reserves particular work to an authorised lawyer or requires
-                  jurisdiction-specific legal sign-off, that element is handled with an
-                  appropriately qualified independent professional in the relevant
-                  jurisdiction.{" "}
+                  Yes. Where relevant, the contract workstream can be
+                  coordinated with the applicable regulatory or compliance
+                  analysis so that contractual obligations are consistent with
+                  the wider framework.{" "}
+                </p>
+              </div>
+              <div className="faq-item">
+                <h3>
+                  What happens if local-law advice or formal local sign-off is
+                  required?
+                </h3>
+                <p>
+                  {" "}
+                  Where applicable law reserves particular work to an authorised
+                  lawyer or requires jurisdiction-specific legal sign-off, that
+                  element is handled with an appropriately qualified independent
+                  professional in the relevant jurisdiction.{" "}
                 </p>
               </div>
             </div>
@@ -345,8 +393,9 @@ export default function Page() {
               <h2>When the contract depends on a wider regulatory question.</h2>
               <p>
                 {" "}
-                Commercial contracts often sit alongside legal opinions, regulatory perimeter
-                analysis, data protection and other compliance workstreams.{" "}
+                Commercial contracts often sit alongside legal opinions,
+                regulatory perimeter analysis, data protection and other
+                compliance workstreams.{" "}
               </p>
             </div>
             <div className="related-grid">
@@ -357,8 +406,8 @@ export default function Page() {
                 {" "}
                 <strong>Legal Opinions &amp; Regulatory Memoranda</strong>{" "}
                 <span>
-                  Document a defined legal or regulatory position where the contract depends on a
-                  particular interpretation.
+                  Document a defined legal or regulatory position where the
+                  contract depends on a particular interpretation.
                 </span>{" "}
               </a>
               <a
@@ -368,8 +417,8 @@ export default function Page() {
                 {" "}
                 <strong>Regulatory Perimeter Assessment</strong>{" "}
                 <span>
-                  Determine whether the underlying service model triggers regulation, permissions or
-                  licensing requirements.
+                  Determine whether the underlying service model triggers
+                  regulation, permissions or licensing requirements.
                 </span>{" "}
               </a>
               <a
@@ -379,42 +428,34 @@ export default function Page() {
                 {" "}
                 <strong>Outsourcing &amp; Technology Contracts</strong>{" "}
                 <span>
-                  Review allocation of responsibilities, confidentiality, data use, security, audit
-                  rights, service levels and change control in technology and outsourcing contracts.
+                  Review allocation of responsibilities, confidentiality, data
+                  use, security, audit rights, service levels and change control
+                  in technology and outsourcing contracts.
                 </span>{" "}
               </a>
               <a className="related-card" href="/services/data-protection/">
                 {" "}
                 <strong>Data Protection</strong>{" "}
                 <span>
-                  Coordinate contractual data-processing, confidentiality and international-transfer
-                  requirements.
+                  Coordinate contractual data-processing, confidentiality and
+                  international-transfer requirements.
                 </span>{" "}
               </a>
             </div>
           </div>
         </section>
-        <div className="lx-eu-inline">
-          <div className="lx-eu-inline-shell">
-            <p>
-              Interested specifically in EU or Czech requirements?{" "}
-              <a
-                href="/services/legal-regulatory/commercial-contracts/"
-                rel="noopener"
-                target="_blank"
-              >
-                See the EU/CZ-focused Commercial Contracts service →
-              </a>
-            </p>
-          </div>
-        </div>
         <section className="lx-legal-menu">
           <div className="lx-legal-menu-shell">
             <p className="lx-legal-kicker">Legal &amp; Regulatory</p>
             <h2>Explore the legal and regulatory service block.</h2>
             <div className="lx-legal-links">
-              <a href="/services/legal-regulatory/">International Legal &amp; Regulatory</a>
-              <a className="is-current" href="/services/legal-regulatory/commercial-contracts/">
+              <a href="/services/legal-regulatory/">
+                International Legal &amp; Regulatory
+              </a>
+              <a
+                className="is-current"
+                href="/services/legal-regulatory/commercial-contracts/"
+              >
                 Commercial Contracts
               </a>
               <a href="/services/legal-regulatory/legal-opinions-regulatory-memoranda/">
@@ -429,7 +470,9 @@ export default function Page() {
               <a href="/services/legal-regulatory/payments-financial-services-regulatory/">
                 Payments &amp; Financial Services Regulatory
               </a>
-              <a href="/services/legal-regulatory/ai-governance/">AI Governance</a>
+              <a href="/services/legal-regulatory/ai-governance/">
+                AI Governance
+              </a>
             </div>
           </div>
         </section>
@@ -437,13 +480,19 @@ export default function Page() {
           <div className="final-cta-strip">
             <div className="container final-cta-inner">
               <div>
-                <div className="section-kicker">Need a contract reviewed or prepared?</div>
-                <h2>Start with the relationship. We will define the right contract workstream.</h2>
+                <div className="section-kicker">
+                  Need a contract reviewed or prepared?
+                </div>
+                <h2>
+                  Start with the relationship. We will define the right contract
+                  workstream.
+                </h2>
                 <p>
                   {" "}
-                  Tell us what the parties are doing, which jurisdictions are involved and whether
-                  the agreement is new, under negotiation or already in place. We will define the
-                  scope and identify any jurisdiction-specific professional input required.{" "}
+                  Tell us what the parties are doing, which jurisdictions are
+                  involved and whether the agreement is new, under negotiation
+                  or already in place. We will define the scope and identify any
+                  jurisdiction-specific professional input required.{" "}
                 </p>
               </div>
               <div className="final-cta-actions">

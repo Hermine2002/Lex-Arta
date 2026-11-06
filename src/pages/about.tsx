@@ -272,7 +272,7 @@ export default function Page() {
                     <img
                       alt="Professional training session"
                       loading="lazy"
-                      src="/images/8ffecfc4b06d36266dc9.webp"
+                      src="/images/about-carousel-training.webp"
                     />
                     <div className="carousel-caption">
                       Training &amp; Knowledge Sharing
@@ -280,9 +280,9 @@ export default function Page() {
                   </article>
                   <article className="carousel-slide">
                     <img
-                      alt="AML and regulatory risk assessment presentation"
+                      alt="Advisers reviewing a regulatory document together"
                       loading="lazy"
-                      src="/images/7d2757b7171a23ab52b3.webp"
+                      src="/images/about-carousel-advisory.webp"
                     />
                     <div className="carousel-caption">Regulatory Advisory</div>
                   </article>
@@ -290,15 +290,15 @@ export default function Page() {
                     <img
                       alt="Advisor supporting a client by phone"
                       loading="lazy"
-                      src="/images/55e7d76d1b6387631491.webp"
+                      src="/images/about-carousel-client-support.webp"
                     />
                     <div className="carousel-caption">Client Support</div>
                   </article>
                   <article className="carousel-slide">
                     <img
-                      alt="Advisory team collaborating around a table"
+                      alt="Advisory team collaborating around a laptop"
                       loading="lazy"
-                      src="/images/045f929db7206c7fd687.webp"
+                      src="/images/about-carousel-collaborative.webp"
                     />
                     <div className="carousel-caption">Collaborative Work</div>
                   </article>
@@ -306,7 +306,7 @@ export default function Page() {
                     <img
                       alt="Compliance professional working at a desk"
                       loading="lazy"
-                      src="/images/293c8cf7af8e26b0aa8f.webp"
+                      src="/images/about-carousel-focused.webp"
                     />
                     <div className="carousel-caption">Focused Solutions</div>
                   </article>

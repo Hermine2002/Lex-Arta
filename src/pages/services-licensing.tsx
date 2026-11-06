@@ -33,61 +33,6 @@ export default function Page() {
             <strong>International Licensing</strong>
             <span>Explore service →</span>
           </a>
-          <a className="lx-basic-card" href="/services/licensing/mica-casp/">
-            <span className="card-tag">European Union</span>
-            <strong>MiCA CASP Licensing &amp; EU Authorisation</strong>
-            <span>Explore service →</span>
-          </a>
-          <a
-            className="lx-basic-card"
-            href="/services/licensing/international/uae/"
-          >
-            <span className="card-tag">United Arab Emirates</span>
-            <strong>UAE Virtual Asset Licensing</strong>
-            <span>Explore service →</span>
-          </a>
-          <a
-            className="lx-basic-card"
-            href="/services/licensing/international/switzerland/"
-          >
-            <span className="card-tag">Switzerland</span>
-            <strong>Switzerland Crypto Regulatory &amp; SRO Route</strong>
-            <span>Explore service →</span>
-          </a>
-          <a
-            className="lx-basic-card"
-            href="/services/licensing/international/canada/"
-          >
-            <span className="card-tag">Canada</span>
-            <strong>Canada MSB / FMSB Registration</strong>
-            <span>Explore service →</span>
-          </a>
-          <a
-            className="lx-basic-card"
-            href="/services/licensing/international/armenia/"
-          >
-            <span className="card-tag">Armenia</span>
-            <strong>Armenia Crypto-Asset Service Provider Licensing</strong>
-            <span>Explore service →</span>
-          </a>
-          <a
-            className="lx-basic-card"
-            href="/services/licensing/international/mauritius/"
-          >
-            <span className="card-tag">Mauritius</span>
-            <strong>Mauritius Virtual Asset Service Provider Licensing</strong>
-            <span>Explore service →</span>
-          </a>
-          <a
-            className="lx-basic-card"
-            href="/services/licensing/international/el-salvador/"
-          >
-            <span className="card-tag">El Salvador</span>
-            <strong>
-              El Salvador Digital Asset Service Provider Registration
-            </strong>
-            <span>Explore service →</span>
-          </a>
           <a
             className="lx-basic-card"
             href="/services/licensing/payments-e-money/"
